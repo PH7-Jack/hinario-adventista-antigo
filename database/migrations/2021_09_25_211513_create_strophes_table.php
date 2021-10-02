@@ -12,7 +12,8 @@ class CreateStrophesTable extends Migration
         Schema::create('strophes', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(Hymn::class)->constrained()->cascadeOnDelete();
-            $table->string('text');
+            $table->string('title');
+            $table->text('text');
             $table->timestamps();
         });
     }

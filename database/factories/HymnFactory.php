@@ -12,10 +12,9 @@ class HymnFactory extends Factory
     public function definition()
     {
         return [
-            'number'         => $this->faker->unique()->randomNumber(610),
-            'name'           => $this->faker->name(),
-            'biblical_verse' => $this->faker->name(),
-            'chorus'         => $this->faker->text(),
+            'number'   => $this->faker->unique()->randomNumber(610),
+            'title'    => $this->faker->name(),
+            'versicle' => $this->faker->name(),
         ];
     }
 }

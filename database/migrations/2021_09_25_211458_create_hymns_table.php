@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\{Category, SubCategory};
+use App\Models\{Category, Section};
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -11,12 +11,10 @@ class CreateHymnsTable extends Migration
     {
         Schema::create('hymns', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(Category::class)->constrained()->cascadeOnDelete();
-            $table->foreignIdFor(SubCategory::class)->constrained()->cascadeOnDelete();
+            $table->foreignIdFor(Section::class)->constrained()->cascadeOnDelete();
             $table->integer('number')->unique();
-            $table->string('name');
-            $table->string('biblical_verse');
-            $table->longText('chorus');
+            $table->string('title');
+            $table->string('versicle');
             $table->timestamps();
         });
     }

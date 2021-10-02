@@ -2,12 +2,12 @@
 
 namespace Database\Factories;
 
-use App\Models\SubCategory;
+use App\Models\Section;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class SubCategoryFactory extends Factory
+class SectionFactory extends Factory
 {
-    protected $model = SubCategory::class;
+    protected $model = Section::class;
 
     public function definition()
     {

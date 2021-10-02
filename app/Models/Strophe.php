@@ -10,7 +10,7 @@ class Strophe extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['text'];
+    protected $fillable = ['title', 'text'];
 
     public function hymn(): BelongsTo
     {

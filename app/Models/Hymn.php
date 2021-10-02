@@ -11,22 +11,20 @@ class Hymn extends Model
     use HasFactory;
 
     protected $fillable = [
-        'category_id',
-        'sub_category_id',
+        'section_id',
         'number',
-        'name',
-        'biblical_verse',
-        'chorus',
+        'title',
+        'versicle',
     ];
 
-    public function category(): BelongsTo
+    public function section(): BelongsTo
     {
-        return $this->belongsTo(Category::class);
+        return $this->belongsTo(Section::class);
     }
 
-    public function subCategory(): BelongsTo
+    public function categories(): BelongsToMany
     {
-        return $this->belongsTo(SubCategory::class);
+        return $this->belongsToMany(Category::class);
     }
 
     public function authores(): BelongsToMany
@@ -36,6 +34,6 @@ class Hymn extends Model
 
     public function strophes(): HasMany
     {
-        return $this->hasMany(Strophes::class);
+        return $this->hasMany(Strophe::class);
     }
 }
