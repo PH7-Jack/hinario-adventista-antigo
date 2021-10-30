@@ -22,6 +22,8 @@
     </head>
 
     <body class="font-sans text-gray-900 antialiased bg-blueGray-100">
+        <x-notifications />
+
         {{ $slot }}
 
         <livewire:scripts />
