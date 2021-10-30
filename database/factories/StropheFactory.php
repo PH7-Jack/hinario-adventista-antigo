@@ -12,7 +12,8 @@ class StropheFactory extends Factory
     public function definition()
     {
         return [
-            'text' => $this->faker->text(),
+            'title' => $this->faker->randomElement(['I', 'II', 'III', 'Coro']),
+            'text'  => $this->faker->text(),
         ];
     }
 }

@@ -12,7 +12,7 @@ class HymnFactory extends Factory
     public function definition()
     {
         return [
-            'number'   => $this->faker->unique()->randomNumber(610),
+            'number'   => $this->faker->unique()->numberBetween(1, 610),
             'title'    => $this->faker->name(),
             'versicle' => $this->faker->name(),
         ];
