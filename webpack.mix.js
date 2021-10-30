@@ -20,3 +20,5 @@ mix.js('resources/js/app.js', 'public/dist')
 if (mix.inProduction()) {
     mix.version()
 }
+
+mix.disableSuccessNotifications()
