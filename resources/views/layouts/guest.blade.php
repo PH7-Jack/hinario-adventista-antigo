@@ -13,9 +13,15 @@
 
         <livewire:styles />
 
+        <wireui:scripts />
         <script src="{{ mix('dist/app.js') }}" defer></script>
+
+        <style>
+            [x-cloak] { display: none !important; }
+        </style>
     </head>
-    <body class="font-sans text-gray-900 antialiased">
+
+    <body class="font-sans text-gray-900 antialiased bg-blueGray-100">
         {{ $slot }}
 
         <livewire:scripts />
