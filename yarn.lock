@@ -1474,10 +1474,10 @@ alphanum-sort@^1.0.2:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-alpinejs@^3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.4.2.tgz#e570b7439a32cb07a1b5f1a47d2966388469111d"
-  integrity sha512-PCTLdySJG5ercbN/g4sO+Nyo0TjzV3IP5W9L3UiSj3756VZPUctNiikLAoKX5al2NlLE2O7jPpgtakuRpLLeIQ==
+alpinejs@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.5.1.tgz#dd7c96b7c9346b559df85561d981b9e5ca2617a1"
+  integrity sha512-GqdRNYpEW/rCoh45oqbGLQ1w2Uygt8DNEiqD7Di/kklJ+EZ3xjDAlFlgJ2xf37K+NtzEu2NdmkaYY6B9NBI79Q==
   dependencies:
     "@vue/reactivity" "~3.1.1"
 
@@ -3593,10 +3593,10 @@ klona@^2.0.4:
   resolved "https://registry.yarnpkg.com/klona/-/klona-2.0.4.tgz#7bb1e3affb0cb8624547ef7e8f6708ea2e39dfc0"
   integrity sha512-ZRbnvdg/NxqzC7L9Uyqzf4psi1OM4Cuc+sJAkQPjO6XkQIJTNbfK2Rsmbw8fx1p2mkZdp2FZYo2+LwXYY/uwIA==
 
-laravel-mix@^6.0.37:
-  version "6.0.37"
-  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.37.tgz#43e953399b66cb5205ed2b7c23cbb3fd0315f2f4"
-  integrity sha512-mue45XrV7nGGvueP7b5mPlTsT3PUDiaTov1B11OnIr+BzaJXMMmf/r3qLRB4dmbXb5WgoQdk/3tVxZ49b2prbQ==
+laravel-mix@^6.0.39:
+  version "6.0.39"
+  resolved "https://registry.yarnpkg.com/laravel-mix/-/laravel-mix-6.0.39.tgz#166090f44bc3fe14de4d013e8dd975e3ccd1c42e"
+  integrity sha512-ChTRKSNx9ViD3Xw1+BDQUZ0PLETcBrXlM7vNmomoDUZBXLUurVUJ9oaRUdGmH/WENNqL0qQ8FFxjq+6U368Nlg==
   dependencies:
     "@babel/core" "^7.15.8"
     "@babel/plugin-proposal-object-rest-spread" "^7.15.6"

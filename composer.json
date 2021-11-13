@@ -17,7 +17,7 @@
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
         "livewire/livewire": "^2.7",
-        "ph7jack/wireui": "^0.13.4"
+        "ph7jack/wireui": "^0.14.1"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
