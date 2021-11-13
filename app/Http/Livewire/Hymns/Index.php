@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Livewire\Hymn;
+namespace App\Http\Livewire\Hymns;
 
 use App\Models\Hymn;
 use App\View\Components\GuestLayout;
@@ -41,6 +41,6 @@ class Index extends Component
 
     public function render()
     {
-        return view('livewire.hymn.index')->layout(GuestLayout::class);
+        return view('livewire.hymns.index')->layout(GuestLayout::class);
     }
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Tests\Feature\Livewire\Hymn;
+namespace Tests\Feature\Livewire\Hymns;
 
-use App\Http\Livewire\Hymn\Index;
+use App\Http\Livewire\Hymns\Index;
 use App\Models\{Author, Hymn, Strophe};
 use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
 use Livewire\Livewire;

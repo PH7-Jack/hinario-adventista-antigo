@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Livewire\Hymn;
+use App\Http\Livewire\Hymns;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', Hymn\Index::class)->name('hymn.index');
+Route::get('/', Hymns\Index::class)->name('hymn.index');
