@@ -1,12 +1,12 @@
 <div class="flex flex-col min-h-screen">
     <div class="flex flex-col p-4"
         x-data="{
-            keyboard: true,
-            hymn: '',
+            keyboard: @entangle('keyboard'),
+            search:   @entangle('search').defer,
 
             init() {
                 $watch('keyboard', (keyboard) => {
-                    this.hymn = ''
+                    this.search = null
 
                     if (keyboard) {
                         $nextTick(() => {
@@ -17,9 +17,17 @@
                         })
                     }
                 })
+
+                $watch('search', (search) => {
+                    if (!this.keyboard) {
+                        $wire.call('$refresh')
+                    }
+                })
             },
             addNumber(number) {
-                if (this.hymn.length === 3) {
+                if (this.search === null) this.search = ''
+
+                if (this.search.length === 3) {
                     return $wireui.notify({
                         title: 'Você só pode digitar até 3 digitos',
                         timeout: 3000,
@@ -27,13 +35,13 @@
                     })
                 }
 
-                this.hymn += number
+                this.search += number
             },
             backspace() {
-                this.hymn = this.hymn.slice(0, -1)
+                this.search = this.search?.slice(0, -1)
             },
             open() {
-                if (this.hymn < 1 || this.hymn > 610) {
+                if (this.search < 1 || this.search > 610) {
                     return $wireui.notify({
                         title: 'Você só pode digitar números entre 1 e 610',
                         timeout: 3000,
@@ -58,7 +66,7 @@
                 'text-center': keyboard
             }"
             icon="search"
-            x-model="hymn">
+            x-model.debounce.750ms="search">
             <x-slot name="append">
                 <div class="absolute inset-y-0 right-0 flex items-center p-0.5">
                     <x-button
@@ -96,6 +104,42 @@
                 <x-icon class="w-10 h-10" name="backspace" style="solid" />
             </button>
         </div>
+
+        @if (!$keyboard)
+            <ul class="mt-4 space-y-4"
+                x-show="!keyboard">
+                @forelse ($this->hymns as $hymn)
+                    <li class="
+                            flex items-center border rounded-lg shadow hover:shadow-md bg-white text-gray-600
+                            transition-all ease-in-out duration-200 overflow-ellipsis-overflow-hidden
+                        "
+                        wire:key="hymns.{{ $hymn->number }}.{{ $loop->index }}">
+                        <div class="w-16 p-4 text-xl font-semibold flex items-center justify-center flex-shrink-0 bg-gray-100">
+                            {{ $hymn->number }}
+                        </div>
+
+                        <div class="truncate px-3">
+                            <p class="text-sm font-semibold break-all">
+                                {{ $hymn->title }}
+                            </p>
+
+                            <span title="{{ $hymn->authors_names }}" class="text-xs text-gray-500">
+                                {{ $hymn->authors_names }}
+                            </span>
+                        </div>
+                    </li>
+                @empty
+                    <li wire:key="hymns.empty"
+                        class="flex flex-col justify-center items-center">
+                        <x-svg.search-x class="w-24 h-24 text-gray-300" />
+
+                        <p class="text-sm text-gray-400 underline">
+                            Hino não encontrado
+                        </p>
+                    </li>
+                @endforelse
+            </ul>
+        @endif
     </div>
 
     <span class="text-xs text-gray-400 text-center mt-auto mb-4">
