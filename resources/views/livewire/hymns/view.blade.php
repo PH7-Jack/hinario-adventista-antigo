@@ -50,7 +50,7 @@
         @endforeach
     </section>
 
-    <div class="fixed bottom-0 w-full py-3 px-4 gap-x-4 z-10 flex items-center"
+    <div class="fixed bottom-0 w-full z-10"
         x-data="{
             scroll: 0,
             state: true,
@@ -74,96 +74,98 @@
         x-transition:leave="transform transition ease-in duration-300"
         x-transition:leave-start="-translate-y-0"
         x-transition:leave-end="translate-y-full">
-        <div class="flex flex-shrink-0 p-1 bg-white text-gray-500 rounded-full shadow-md">
-            <a href="{{ route('hymns.index') }}">
+        <div class="flex items-center gap-x-4 py-3 px-4 sm:max-w-sm sm:mx-auto">
+            <div class="flex flex-shrink-0 p-1 bg-white text-gray-500 rounded-full shadow-md">
+                <a href="{{ route('hymns.index') }}">
+                    <x-button
+                        class="font-bold text-lg bg-white"
+                        flat
+                        rounded>
+                        <x-icon name="home" class="w-6 h-6" />
+                    </x-button>
+                </a>
+            </div>
+
+            <div class="w-full flex items-center justify-between p-1 bg-white text-gray-500 rounded-full shadow-md">
                 <x-button
-                    class="font-bold text-lg bg-white"
+                    wire:click="previous"
+                    rounded
                     flat
-                    rounded>
-                    <x-icon name="home" class="w-6 h-6" />
+                    secondary
+                    :disabled="$hymn->number === 1">
+                    <x-icon name="chevron-left" class="w-6 h-6" />
                 </x-button>
-            </a>
-        </div>
 
-        <div class="w-full flex items-center justify-between p-1 bg-white text-gray-500 rounded-full shadow-md">
-            <x-button
-                wire:click="previous"
-                rounded
-                flat
-                secondary
-                :disabled="$hymn->number === 1">
-                <x-icon name="chevron-left" class="w-6 h-6" />
-            </x-button>
+                <x-button
+                    x-data="{
+                        share() {
+                            const shareData = {
+                                text: 'Louve o Senhor com o hino {{ $hymn->number }} - {{ $hymn->title }}',
+                                url: '{{ route('hymns.view', $hymn) }}',
+                            }
 
-            <x-button
-                x-data="{
-                    share() {
-                        const shareData = {
-                            text: 'Louve o Senhor com o hino {{ $hymn->number }} - {{ $hymn->title }}',
-                            url: '{{ route('hymns.view', $hymn) }}',
+                            if (navigator.share) {
+                                this.navigatorShare(shareData)
+                            }
+
+                            this.copyToClipboard(shareData.url)
+
+                            $wireui.notify({
+                                icon: 'success',
+                                description: 'URL copiada para a área de transferência',
+                                timeout: 3000,
+                            })
+                        },
+                        navigatorShare(shareData) {
+                            try {
+                                navigator.share(shareData)
+                            } catch(e) {}
+                        },
+                        copyToClipboard(url) {
+                            const textarea = document.createElement('textarea')
+                            textarea.value = url
+                            document.body.appendChild(textarea)
+                            textarea.select()
+                            document.execCommand('copy')
+                            textarea.remove()
                         }
+                    }"
+                    x-on:click="share"
+                    rounded
+                    flat
+                    secondary>
+                    <x-icon name="share" class="w-6 h-6" />
+                </x-button>
 
-                        if (navigator.share) {
-                            this.navigatorShare(shareData)
-                        }
+                <x-button
+                    rounded
+                    flat
+                    secondary
+                    x-data="{}"
+                    x-on:click="$dispatch('size::decrease')"
+                    class="font-bold text-lg">
+                    A-
+                </x-button>
 
-                        this.copyToClipboard(shareData.url)
+                <x-button
+                    rounded
+                    flat
+                    secondary
+                    x-data="{}"
+                    x-on:click="$dispatch('size::increase')"
+                    class="font-bold text-lg">
+                    A+
+                </x-button>
 
-                        $wireui.notify({
-                            icon: 'success',
-                            description: 'URL copiada para a área de transferência',
-                            timeout: 3000,
-                        })
-                    },
-                    navigatorShare(shareData) {
-                        try {
-                            navigator.share(shareData)
-                        } catch(e) {}
-                    },
-                    copyToClipboard(url) {
-                        const textarea = document.createElement('textarea')
-                        textarea.value = url
-                        document.body.appendChild(textarea)
-                        textarea.select()
-                        document.execCommand('copy')
-                        textarea.remove()
-                    }
-                }"
-                x-on:click="share"
-                rounded
-                flat
-                secondary>
-                <x-icon name="share" class="w-6 h-6" />
-            </x-button>
-
-            <x-button
-                rounded
-                flat
-                secondary
-                x-data="{}"
-                x-on:click="$dispatch('size::decrease')"
-                class="font-bold text-lg">
-                A-
-            </x-button>
-
-            <x-button
-                rounded
-                flat
-                secondary
-                x-data="{}"
-                x-on:click="$dispatch('size::increase')"
-                class="font-bold text-lg">
-                A+
-            </x-button>
-
-            <x-button
-                wire:click="next"
-                rounded
-                flat
-                secondary
-                :disabled="$hymn->number === 610">
-                <x-icon name="chevron-right" class="w-6 h-6" />
-            </x-button>
+                <x-button
+                    wire:click="next"
+                    rounded
+                    flat
+                    secondary
+                    :disabled="$hymn->number === 610">
+                    <x-icon name="chevron-right" class="w-6 h-6" />
+                </x-button>
+            </div>
         </div>
     </div>
 
