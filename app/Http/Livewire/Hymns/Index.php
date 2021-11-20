@@ -6,10 +6,13 @@ use App\Models\Hymn;
 use App\View\Components\GuestLayout;
 use Illuminate\Support\Collection;
 use Livewire\Component;
+use WireUi\Traits\Actions;
 
 /** @property-read Collection $hymns */
 class Index extends Component
 {
+    use Actions;
+
     public bool $keyboard = true;
 
     public ?string $search = null;
@@ -37,6 +40,19 @@ class Index extends Component
             ->groupBy('hymns.id')
             ->limit(10)
             ->get();
+    }
+
+    public function open()
+    {
+        if ($this->search < 1 || $this->search > 610) {
+            return $this->notification()->notify([
+                'title'   => 'Você só pode digitar números entre 1 e 610',
+                'icon'    => 'info',
+                'timeout' => 3000,
+            ]);
+        }
+
+        return $this->redirect(route('hymns.view', $this->search));
     }
 
     public function render()

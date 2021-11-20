@@ -79,4 +79,17 @@ class IndexTest extends TestCase
                 'Autor Desconhecido',
             ]);
     }
+
+    /** @test */
+    public function it_should_redirect_to_hymn_page()
+    {
+        $hymn = Hymn::factory()->forSection()->create();
+
+        Author::factory()->count(2)->hasAttached($hymn)->create();
+
+        Livewire::test(Index::class)
+            ->set('search', $hymn->number)
+            ->call('open')
+            ->assertRedirect(route('hymns.view', $hymn));
+    }
 }

@@ -49,7 +49,7 @@
                     })
                 }
 
-                // todo: redirect to hymn page
+                $wire.open()
             }
         }">
         <div class="flex flex-col justify-center items-center mx-auto mt-20 mb-12">
@@ -109,24 +109,26 @@
             <ul class="mt-4 space-y-4"
                 x-show="!keyboard">
                 @forelse ($this->hymns as $hymn)
-                    <li class="
-                            flex items-center border rounded-lg shadow hover:shadow-md bg-white text-gray-600
-                            transition-all ease-in-out duration-200 overflow-ellipsis-overflow-hidden
-                        "
-                        wire:key="hymns.{{ $hymn->number }}.{{ $loop->index }}">
-                        <div class="w-16 p-4 text-xl font-semibold flex items-center justify-center flex-shrink-0 bg-gray-100">
-                            {{ $hymn->number }}
-                        </div>
+                    <li wire:key="hymns.{{ $hymn->number }}.{{ $loop->index }}">
+                        <a class="
+                                flex items-center border rounded-lg shadow hover:shadow-md bg-white text-gray-600
+                                transition-all ease-in-out duration-200 overflow-ellipsis-overflow-hidden
+                            "
+                            href="{{ route('hymns.view', $hymn) }}">
+                            <div class="w-16 p-4 text-xl font-semibold flex items-center justify-center flex-shrink-0 bg-gray-100">
+                                {{ $hymn->number }}
+                            </div>
 
-                        <div class="truncate px-3">
-                            <p class="text-sm font-semibold break-all">
-                                {{ $hymn->title }}
-                            </p>
+                            <div class="truncate px-3">
+                                <p class="text-sm font-semibold break-all">
+                                    {{ $hymn->title }}
+                                </p>
 
-                            <span title="{{ $hymn->authors_names }}" class="text-xs text-gray-500">
-                                {{ $hymn->authors_names }}
-                            </span>
-                        </div>
+                                <span title="{{ $hymn->authors_names }}" class="text-xs text-gray-500">
+                                    {{ $hymn->authors_names }}
+                                </span>
+                            </div>
+                        </a>
                     </li>
                 @empty
                     <li wire:key="hymns.empty"
@@ -142,7 +144,5 @@
         @endif
     </div>
 
-    <span class="text-xs text-gray-400 text-center mt-auto mb-4">
-        Open Source Project
-    </span>
+    @include('layouts.guest.footer')
 </div>
