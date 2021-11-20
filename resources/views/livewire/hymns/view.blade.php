@@ -1,10 +1,4 @@
 <div class="flex flex-col min-h-screen pb-20">
-    <a href="{{ route('hymns.index') }}" class="fixed top-6 left-4">
-        <x-button rounded class="font-bold text-lg bg-white">
-            <x-icon name="home" class="w-6 h-6" />
-        </x-button>
-    </a>
-
     <x-svg.arabesque class="mt-6 mx-auto w-52 h-auto text-gray-300" />
 
     <section class="flex flex-col gap-8 mb-8 mt-6 p-4 pt-0 text-gray-600 text-center"
@@ -56,8 +50,42 @@
         @endforeach
     </section>
 
-    <div class="fixed bottom-0 w-full p-3 z-10">
-        <div class="flex items-center justify-between mx-4 p-1 bg-white text-gray-500 rounded-full shadow-md">
+    <div class="fixed bottom-0 w-full py-3 px-4 gap-x-4 z-10 flex items-center"
+        x-data="{
+            scroll: 0,
+            state: true,
+
+            init() {
+                $watch('scroll', (scroll, oldScroll) => {
+                    scroll > oldScroll
+                        ? this.state = true
+                        : this.state = false
+                })
+            },
+            onScroll(event) {
+                this.scroll = event.target.documentElement.scrollTop
+            }
+        }"
+        x-on:scroll.window="onScroll"
+        x-show="state"
+        x-transition:enter="transform transition ease-out duration-300"
+        x-transition:enter-start="translate-y-full"
+        x-transition:enter-end="-translate-y-0"
+        x-transition:leave="transform transition ease-in duration-300"
+        x-transition:leave-start="-translate-y-0"
+        x-transition:leave-end="translate-y-full">
+        <div class="flex flex-shrink-0 p-1 bg-white text-gray-500 rounded-full shadow-md">
+            <a href="{{ route('hymns.index') }}">
+                <x-button
+                    class="font-bold text-lg bg-white"
+                    flat
+                    rounded>
+                    <x-icon name="home" class="w-6 h-6" />
+                </x-button>
+            </a>
+        </div>
+
+        <div class="w-full flex items-center justify-between p-1 bg-white text-gray-500 rounded-full shadow-md">
             <x-button
                 wire:click="previous"
                 rounded
