@@ -99,8 +99,9 @@
                 <x-button
                     x-data="{
                         share() {
+                            const title = @js($this->hymn->title);
                             const shareData = {
-                                text: 'Louve o Senhor com o hino {{ $hymn->number }} - {{ $hymn->title }}',
+                                text: `Louve o Senhor com o hino {{ $hymn->number }} - ${title}`,
                                 url: '{{ route('hymns.view', $hymn) }}',
                             }
 
