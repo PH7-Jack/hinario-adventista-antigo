@@ -1,7 +1,34 @@
 <div class="flex flex-col min-h-screen pb-20">
     <x-svg.arabesque class="mt-6 mx-auto w-52 h-auto text-gray-300" />
 
-    <section class="flex flex-col gap-8 mb-8 mt-6 p-4 pt-0 text-gray-600 text-center">
+    <section class="flex flex-col gap-8 mb-8 mt-6 p-4 pt-0 text-gray-600 text-center"
+        x-data="{
+            size: $persist(2),
+            sizes: [
+                'text-xs',
+                'text-sm',
+                'text-base',
+                'text-lg',
+                'text-xl',
+                'text-2xl',
+                'text-3xl',
+                'text-4xl',
+                'text-5xl',
+                'text-6xl',
+                'text-7xl',
+            ],
+            get sizeClass() {
+                return this.sizes[this.size]
+            },
+            decrease() {
+                this.size = Math.max(0, this.size - 1)
+            },
+            increase() {
+                this.size = Math.min(this.sizes.length - 1, this.size + 1)
+            }
+        }"
+        x-on:size::decrease.window="decrease"
+        x-on:size::increase.window="increase">
         <div>
             <h4 class="text-xl">
                 {{ $hymn->number }}
@@ -18,7 +45,7 @@
                     {{ $strophe->title }}
                 </h5>
 
-                <span class="whitespace-pre-line">{{ $strophe->text }}</span>
+                <span class="whitespace-pre-line transition-all ease-linear duration-200" :class="{ [sizeClass]: true }">{{ $strophe->text }}</span>
             </div>
         @endforeach
     </section>
@@ -75,12 +102,24 @@
                 <x-icon name="share" class="w-6 h-6" />
             </x-button>
 
-            <x-button rounded flat secondary class="font-bold text-lg">
-                A+
+            <x-button
+                rounded
+                flat
+                secondary
+                x-data="{}"
+                x-on:click="$dispatch('size::decrease')"
+                class="font-bold text-lg">
+                A-
             </x-button>
 
-            <x-button rounded flat secondary class="font-bold text-lg">
-                A-
+            <x-button
+                rounded
+                flat
+                secondary
+                x-data="{}"
+                x-on:click="$dispatch('size::increase')"
+                class="font-bold text-lg">
+                A+
             </x-button>
 
             <x-button
