@@ -1,5 +1,5 @@
 <div class="flex flex-col min-h-screen">
-    <div class="flex flex-col p-4"
+    <main class="my-auto flex flex-col p-4"
         x-data="{
             keyboard: @entangle('keyboard'),
             search:   @entangle('search').defer,
@@ -60,28 +60,32 @@
             </p>
         </div>
 
-        <x-input
-            class="pr-12"
-            x-bind:class="{
-                'text-center': keyboard
-            }"
-            icon="search"
-            x-model.debounce.750ms="search">
-            <x-slot name="append">
-                <div class="absolute inset-y-0 right-0 flex items-center p-0.5">
-                    <x-button
-                        x-on:click="keyboard = !keyboard"
-                        class="rounded-r-md h-full"
-                        primary
-                        flat
-                        squared
-                        x-cloak>
-                        <x-svg.alpha x-show="keyboard" class="w-6 h-6 text-gray-400" />
-                        <x-svg.numeric x-show="!keyboard" class="w-6 h-6 text-gray-400" />
-                    </x-button>
-                </div>
-            </x-slot>
-        </x-input>
+        <div class="mx-auto">
+            <x-input
+                class="pr-12 rounded-full"
+                x-bind:class="{
+                    'text-center': keyboard
+                }"
+                x-bind:type="keyboard ? 'number':'text'"
+                icon="search"
+                x-model.debounce.750ms="search">
+                <x-slot name="append">
+                    <div class="absolute inset-y-0 right-0 flex items-center p-0.5">
+                        <x-button
+                            x-on:click="keyboard = !keyboard"
+                            class="!rounded-l-sm h-full"
+                            spinner
+                            primary
+                            flat
+                            rounded
+                            x-cloak>
+                            <x-svg.alpha   wire:loading.remove x-show="keyboard" class="w-6 h-6 text-gray-400" />
+                            <x-svg.numeric wire:loading.remove x-show="!keyboard" class="w-6 h-6 text-gray-400" />
+                        </x-button>
+                    </div>
+                </x-slot>
+            </x-input>
+        </div>
 
         <div class="mx-auto grid grid-cols-3 gap-x-8 gap-y-4 my-8"
             x-show="keyboard"
@@ -106,13 +110,14 @@
         </div>
 
         @if (!$keyboard)
-            <ul class="mt-4 space-y-4"
+            <ul class="mt-4 sm:mx-auto space-y-4"
                 x-show="!keyboard">
                 @forelse ($this->hymns as $hymn)
                     <li wire:key="hymns.{{ $hymn->number }}.{{ $loop->index }}">
                         <a class="
                                 flex items-center border rounded-lg shadow hover:shadow-md bg-white text-gray-600
                                 transition-all ease-in-out duration-200 overflow-ellipsis-overflow-hidden
+                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500
                             "
                             href="{{ route('hymns.view', $hymn) }}">
                             <div class="w-16 p-4 text-xl font-semibold flex items-center justify-center flex-shrink-0 bg-gray-100">
@@ -142,7 +147,7 @@
                 @endforelse
             </ul>
         @endif
-    </div>
+    </main>
 
     @include('layouts.guest.footer')
 </div>

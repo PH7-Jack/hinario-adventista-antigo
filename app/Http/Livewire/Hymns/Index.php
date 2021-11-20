@@ -17,6 +17,16 @@ class Index extends Component
 
     public ?string $search = null;
 
+    public function mount()
+    {
+        $this->ensureSessionTab();
+    }
+
+    public function updatedKeyboard(bool $keyboard): void
+    {
+        session()->put('hymns.keyboard', $keyboard);
+    }
+
     public function getHymnsProperty(): Collection
     {
         return Hymn::query()
@@ -40,6 +50,11 @@ class Index extends Component
             ->groupBy('hymns.id')
             ->limit(10)
             ->get();
+    }
+
+    private function ensureSessionTab(): void
+    {
+        $this->keyboard = session('hymns.keyboard', true);
     }
 
     public function open()
