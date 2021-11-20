@@ -34,7 +34,44 @@
                 <x-icon name="chevron-left" class="w-6 h-6" />
             </x-button>
 
-            <x-button rounded flat secondary>
+            <x-button
+                x-data="{
+                    share() {
+                        const shareData = {
+                            text: 'Louve o Senhor com o hino {{ $hymn->number }} - {{ $hymn->title }}',
+                            url: '{{ route('hymns.view', $hymn) }}',
+                        }
+
+                        if (navigator.share) {
+                            this.navigatorShare(shareData)
+                        }
+
+                        this.copyToClipboard(shareData.url)
+
+                        $wireui.notify({
+                            icon: 'success',
+                            description: 'URL copiada para a área de transferência',
+                            timeout: 3000,
+                        })
+                    },
+                    navigatorShare(shareData) {
+                        try {
+                            navigator.share(shareData)
+                        } catch(e) {}
+                    },
+                    copyToClipboard(url) {
+                        const textarea = document.createElement('textarea')
+                        textarea.value = url
+                        document.body.appendChild(textarea)
+                        textarea.select()
+                        document.execCommand('copy')
+                        textarea.remove()
+                    }
+                }"
+                x-on:click="share"
+                rounded
+                flat
+                secondary>
                 <x-icon name="share" class="w-6 h-6" />
             </x-button>
 
