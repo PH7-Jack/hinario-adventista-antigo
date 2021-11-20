@@ -16,6 +16,8 @@ class CreateHymnsTable extends Migration
             $table->string('title');
             $table->string('versicle');
             $table->timestamps();
+
+            $table->index(['number']);
         });
     }
 
