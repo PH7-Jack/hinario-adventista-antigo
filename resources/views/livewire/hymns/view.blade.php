@@ -25,7 +25,12 @@
 
     <div class="fixed bottom-0 w-full p-3 z-10">
         <div class="flex items-center justify-between mx-4 p-1 bg-white text-gray-500 rounded-full shadow-md">
-            <x-button rounded flat secondary>
+            <x-button
+                wire:click="previous"
+                rounded
+                flat
+                secondary
+                :disabled="$hymn->number === 1">
                 <x-icon name="chevron-left" class="w-6 h-6" />
             </x-button>
 
@@ -41,7 +46,12 @@
                 A-
             </x-button>
 
-            <x-button rounded flat secondary>
+            <x-button
+                wire:click="next"
+                rounded
+                flat
+                secondary
+                :disabled="$hymn->number === 610">
                 <x-icon name="chevron-right" class="w-6 h-6" />
             </x-button>
         </div>
