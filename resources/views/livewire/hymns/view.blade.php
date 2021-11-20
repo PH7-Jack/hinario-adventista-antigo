@@ -1,4 +1,10 @@
 <div class="flex flex-col min-h-screen pb-20">
+    <a href="{{ route('hymns.index') }}" class="fixed top-6 left-4">
+        <x-button rounded class="font-bold text-lg bg-white">
+            <x-icon name="home" class="w-6 h-6" />
+        </x-button>
+    </a>
+
     <x-svg.arabesque class="mt-6 mx-auto w-52 h-auto text-gray-300" />
 
     <section class="flex flex-col gap-8 mb-8 mt-6 p-4 pt-0 text-gray-600 text-center"
