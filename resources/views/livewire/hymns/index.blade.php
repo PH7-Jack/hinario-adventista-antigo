@@ -91,18 +91,18 @@
                 <x-keyboard-button x-on:click="addNumber({{ $i }})" :label="$i" />
             @endfor
 
-            <x-keyboard-button x-on:click="open">
-                <x-icon class="w-8 h-8" name="check" style="solid" />
-            </x-keyboard-button>
-
-            <x-keyboard-button x-on:click="addNumber(0)" label="0" />
-
             <button
-                class="mx-auto focus:outline-none text-gray-400 hover:text-gray-500 transition-all ease-in-out duration-200"
+                class="mx-auto focus:outline-none rotate-180 text-gray-400 hover:text-gray-500 transition-all ease-in-out duration-200"
                 x-on:click="backspace"
                 type="button">
                 <x-icon class="w-10 h-10" name="backspace" style="solid" />
             </button>
+
+            <x-keyboard-button x-on:click="addNumber(0)" label="0" />
+
+            <x-keyboard-button x-on:click="open">
+                <x-icon class="w-8 h-8" name="check" style="solid" />
+            </x-keyboard-button>
         </div>
 
         @if (!$keyboard)
