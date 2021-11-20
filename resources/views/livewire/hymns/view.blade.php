@@ -58,8 +58,8 @@
             init() {
                 $watch('scroll', (scroll, oldScroll) => {
                     scroll > oldScroll
-                        ? this.state = true
-                        : this.state = false
+                        ? this.state = false
+                        : this.state = true
                 })
             },
             onScroll(event) {
