@@ -20,5 +20,7 @@
         "postcss-import": "^14.0.1",
         "tailwindcss": "^2.2.19"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@alpinejs/persist": "^3.5.1"
+    }
 }

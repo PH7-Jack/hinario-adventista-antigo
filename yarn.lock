@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@alpinejs/persist@^3.5.1":
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/@alpinejs/persist/-/persist-3.5.1.tgz#34192d89814b846b2f1cf3295095ee3ed4053620"
+  integrity sha512-ynbOTlUeT85s3HsCr/QG38IcA0RgdsxvXI2iaB7XnHY27EYrmn76ZxjF1IUBk5vdtaxBqEtcDab1MvHNwN0tow==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.14.5.tgz#23b08d740e83f49c5e59945fbf1b43e80bbf4edb"
