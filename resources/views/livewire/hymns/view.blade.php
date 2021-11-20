@@ -20,6 +20,12 @@
             get sizeClass() {
                 return this.sizes[this.size]
             },
+            get titleSizeClass() {
+                return this.sizes[Math.max(5, this.size)]
+            },
+            get shropheTitleSizeClass() {
+                return this.sizes[Math.max(3, this.size)]
+            },
             decrease() {
                 this.size = Math.max(0, this.size - 1)
             },
@@ -30,18 +36,18 @@
         x-on:size::decrease.window="decrease"
         x-on:size::increase.window="increase">
         <div>
-            <h4 class="text-xl">
+            <h4 class="transition-all ease-linear duration-200" :class="{ [shropheTitleSizeClass]: true }">
                 {{ $hymn->number }}
             </h4>
 
-            <h3 class="text-2xl">
+            <h3 class="transition-all ease-linear duration-200" :class="{ [titleSizeClass]: true }">
                 {{ $hymn->title }}
             </h3>
         </div>
 
         @foreach ($hymn->strophes as $strophe)
             <div wire:key="strophes.{{ $strophe->id }}" class="flex flex-col gap-8">
-                <h5 class="text-lg">
+                <h5 class="transition-all ease-linear duration-200" :class="{ [shropheTitleSizeClass]: true }">
                     {{ $strophe->title }}
                 </h5>
 
