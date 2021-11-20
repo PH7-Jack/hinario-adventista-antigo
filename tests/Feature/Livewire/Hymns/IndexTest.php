@@ -70,7 +70,9 @@ class IndexTest extends TestCase
         $authors1 = Author::factory()->count(2)->hasAttached($hymn)->create();
         $author2  = Author::factory()->hasAttached($hymn)->create();
 
-        Livewire::test(Index::class, ['keyboard' => false, 'search' => 'hymn'])
+        Livewire::test(Index::class)
+            ->set('search', 'hymn')
+            ->set('keyboard', false)
             ->assertSeeTextInOrder(['Hymn 1', 'Hymn 2', 'Hymn 3'])
             ->assertSeeTextInOrder(['1', '2', '3'])
             ->assertSeeTextInOrder([
@@ -91,5 +93,15 @@ class IndexTest extends TestCase
             ->set('search', $hymn->number)
             ->call('open')
             ->assertRedirect(route('hymns.view', $hymn));
+    }
+
+    /** @test */
+    public function it_should_save_in_session_the_current_keyboard_value()
+    {
+        Livewire::test(Index::class)->toggle('keyboard');
+
+        Livewire::test(Index::class)->assertSet('keyboard', false);
+
+        $this->assertEquals(false, session('hymns.keyboard'));
     }
 }
