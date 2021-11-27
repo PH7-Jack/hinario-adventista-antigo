@@ -85,7 +85,7 @@ class IndexTest extends TestCase
     /** @test */
     public function it_should_redirect_to_hymn_page()
     {
-        $hymn = Hymn::factory()->forSection()->create();
+        $hymn = Hymn::factory()->forSection()->create(['number' => 1]);
 
         Author::factory()->count(2)->hasAttached($hymn)->create();
 
