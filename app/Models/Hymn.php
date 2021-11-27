@@ -13,6 +13,7 @@ class Hymn extends Model
     protected $fillable = [
         'section_id',
         'number',
+        'slug',
         'title',
         'versicle',
     ];

@@ -13,11 +13,12 @@ class CreateHymnsTable extends Migration
             $table->id();
             $table->foreignIdFor(Section::class)->constrained()->cascadeOnDelete();
             $table->integer('number')->unique();
+            $table->string('slug')->unique();
             $table->string('title');
             $table->string('versicle');
             $table->timestamps();
 
-            $table->index(['number']);
+            $table->index(['number', 'slug', 'title']);
         });
     }
 

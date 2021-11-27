@@ -14,6 +14,7 @@ class HymnFactory extends Factory
         return [
             'number'   => $this->faker->unique()->numberBetween(1, 610),
             'title'    => $this->faker->name(),
+            'slug'     => $this->faker->unique()->slug(),
             'versicle' => $this->faker->name(),
         ];
     }
