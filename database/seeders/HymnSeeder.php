@@ -24,7 +24,7 @@ class HymnSeeder extends Seeder
             $hymn = Hymn::query()->create([
                 'section_id' => $section->id,
                 'title'      => data_get($data, 'title'),
-                'slug'       => Str::of(data_get($data, 'title')),
+                'slug'       => Str::slug(data_get($data, 'title')),
                 'number'     => data_get($data, 'number'),
                 'versicle'   => data_get($data, 'versicle'),
             ]);
