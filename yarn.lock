@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@alpinejs/persist@^3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@alpinejs/persist/-/persist-3.5.1.tgz#34192d89814b846b2f1cf3295095ee3ed4053620"
-  integrity sha512-ynbOTlUeT85s3HsCr/QG38IcA0RgdsxvXI2iaB7XnHY27EYrmn76ZxjF1IUBk5vdtaxBqEtcDab1MvHNwN0tow==
+"@alpinejs/persist@^3.5.2":
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/@alpinejs/persist/-/persist-3.5.2.tgz#194a93f9950c110446be1493af9f59ad93a36f14"
+  integrity sha512-thnvio9HEpQf9Yp13mNhVXO/lxEXiSDyCeJ3SDCVvhFYML+3xr4r8dhFEBGZKGS8cRH41x0qKBXNa3Oc4n533w==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5":
   version "7.14.5"
@@ -1479,10 +1479,10 @@ alphanum-sort@^1.0.2:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-alpinejs@^3.5.1:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.5.1.tgz#dd7c96b7c9346b559df85561d981b9e5ca2617a1"
-  integrity sha512-GqdRNYpEW/rCoh45oqbGLQ1w2Uygt8DNEiqD7Di/kklJ+EZ3xjDAlFlgJ2xf37K+NtzEu2NdmkaYY6B9NBI79Q==
+alpinejs@^3.5.2:
+  version "3.5.2"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-3.5.2.tgz#bea3776402f32b2a5bed2d8005cef366da823371"
+  integrity sha512-O80pq9CyyxelitgU9aEiP2HyRAAqZjA9sgJgxccuhr+XAVAJI1F/hPLVgkqGFPSvHcyDnd9biEyizY95QMgiFw==
   dependencies:
     "@vue/reactivity" "~3.1.1"
 
@@ -4643,14 +4643,14 @@ postcss@^8.1.6, postcss@^8.2.1, postcss@^8.2.15:
     nanoid "^3.1.25"
     source-map-js "^0.6.2"
 
-postcss@^8.3.11:
-  version "8.3.11"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.3.11.tgz#c3beca7ea811cd5e1c4a3ec6d2e7599ef1f8f858"
-  integrity sha512-hCmlUAIlUiav8Xdqw3Io4LcpA1DOt7h3LSTAC4G6JGHFFaWzI6qvFt9oilvl8BmkbBRX1IhM90ZAmpk68zccQA==
+postcss@^8.4.4:
+  version "8.4.4"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.4.tgz#d53d4ec6a75fd62557a66bb41978bf47ff0c2869"
+  integrity sha512-joU6fBsN6EIer28Lj6GDFoC/5yOZzLCfn0zHAn/MYXI7aPt4m4hK5KC5ovEZXy+lnCjmYIbQWngvju2ddyEr8Q==
   dependencies:
     nanoid "^3.1.30"
     picocolors "^1.0.0"
-    source-map-js "^0.6.2"
+    source-map-js "^1.0.1"
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
@@ -5159,6 +5159,11 @@ source-map-js@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-0.6.2.tgz#0bb5de631b41cfbda6cfba8bd05a80efdfd2385e"
   integrity sha512-/3GptzWzu0+0MBQFrDKzw/DvvMTUORvgY6k6jd/VS6iCR4RDTKWH6v6WPwQoUO8667uQEf9Oe38DxAYWY5F/Ug==
+
+source-map-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.1.tgz#a1741c131e3c77d048252adfa24e23b908670caf"
+  integrity sha512-4+TN2b3tqOCd/kaGRJ/sTYA0tR0mdXx26ipdolxcwtJVqEnqNYvlCAt1q3ypy4QMlYus+Zh34RNtYLoq2oQ4IA==
 
 source-map-support@~0.5.12, source-map-support@~0.5.20:
   version "0.5.20"
