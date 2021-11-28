@@ -4,13 +4,13 @@ namespace Tests\Feature\Livewire\Hymns;
 
 use App\Http\Livewire\Hymns\View;
 use App\Models\Hymn;
-use Illuminate\Foundation\Testing\LazilyRefreshDatabase;
+use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Livewire\Livewire;
 use Tests\TestCase;
 
 class ViewTest extends TestCase
 {
-    use LazilyRefreshDatabase;
+    use DatabaseTransactions;
 
     /** @test */
     public function it_should_render_all_hymn_strophes()
@@ -43,28 +43,22 @@ class ViewTest extends TestCase
     /** @test */
     public function it_should_go_to_previous_hymn_page()
     {
-        /** @var Hymn $hymn */
-        $hymn = Hymn::factory()->forSection()->create([
-            'number' => 2,
-            'title'  => 'Hymn 2',
-        ]);
+        $hymn  = Hymn::factory()->forSection()->create(['number' => 1]);
+        $hymn2 = Hymn::factory()->forSection()->create(['number' => 2]);
 
-        Livewire::test(View::class, ['hymn' => $hymn])
+        Livewire::test(View::class, ['hymn' => $hymn2])
             ->call('previous')
-            ->assertRedirect(route('hymns.view', 1));
+            ->assertRedirect(route('hymns.view', $hymn));
     }
 
     /** @test */
     public function it_should_go_to_next_hymn_page()
     {
-        /** @var Hymn $hymn */
-        $hymn = Hymn::factory()->forSection()->create([
-            'number' => 1,
-            'title'  => 'Hymn 1',
-        ]);
+        $hymn  = Hymn::factory()->forSection()->create(['number' => 1]);
+        $hymn2 = Hymn::factory()->forSection()->create(['number' => 2]);
 
         Livewire::test(View::class, ['hymn' => $hymn])
             ->call('next')
-            ->assertRedirect(route('hymns.view', 2));
+            ->assertRedirect(route('hymns.view', $hymn2));
     }
 }

@@ -63,4 +63,14 @@ class Hymn extends Model
 
         return $this->where($field, $value)->firstOrFail();
     }
+
+    public function previous(): self
+    {
+        return self::query()->where('number', $this->number - 1)->firstOrFail();
+    }
+
+    public function next(): self
+    {
+        return self::query()->where('number', $this->number + 1)->firstOrFail();
+    }
 }
