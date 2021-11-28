@@ -60,12 +60,12 @@ class IndexTest extends TestCase
             ->forSection()
             ->count(3)
             ->sequence(
-                ['number' => '1', 'title' => 'Hymn 1'],
-                ['number' => '2', 'title' => 'Hymn 2'],
-                ['number' => '3', 'title' => 'Hymn 3'],
+                ['number' => 1, 'title' => 'Hymn 1'],
+                ['number' => 2, 'title' => 'Hymn 2'],
+                ['number' => 3, 'title' => 'Hymn 3'],
             )->create();
 
-        $hymn  = $hymns->get(0);
+        $hymn = $hymns->get(0);
 
         $authors1 = Author::factory()->count(2)->hasAttached($hymn)->create();
         $author2  = Author::factory()->hasAttached($hymn)->create();
@@ -92,7 +92,7 @@ class IndexTest extends TestCase
         Livewire::test(Index::class)
             ->set('search', $hymn->number)
             ->call('open')
-            ->assertRedirect(route('hymns.view', $hymn));
+            ->assertRedirect(route('hymns.view', ['hymn' => $hymn->number]));
     }
 
     /** @test */
