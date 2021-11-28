@@ -4,8 +4,8 @@ namespace Database\Seeders;
 
 use App\Models\{Author, Category, Hymn, Section};
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Validator;
+use Illuminate\Support\{Collection, Str};
 
 class HymnSeeder extends Seeder
 {
@@ -24,6 +24,7 @@ class HymnSeeder extends Seeder
             $hymn = Hymn::query()->create([
                 'section_id' => $section->id,
                 'title'      => data_get($data, 'title'),
+                'slug'       => Str::slug(data_get($data, 'title')),
                 'number'     => data_get($data, 'number'),
                 'versicle'   => data_get($data, 'versicle'),
             ]);

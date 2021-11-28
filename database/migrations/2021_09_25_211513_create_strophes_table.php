@@ -13,8 +13,10 @@ class CreateStrophesTable extends Migration
             $table->id();
             $table->foreignIdFor(Hymn::class)->constrained()->cascadeOnDelete();
             $table->string('title');
-            $table->text('text');
+            $table->string('text', 500);
             $table->timestamps();
+
+            $table->index(['text']);
         });
     }
 

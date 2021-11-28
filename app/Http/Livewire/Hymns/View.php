@@ -12,12 +12,12 @@ class View extends Component
 
     public function previous(): void
     {
-        $this->redirect(route('hymns.view', $this->hymn->number - 1));
+        $this->redirect(route('hymns.view', $this->hymn->previous()));
     }
 
     public function next(): void
     {
-        $this->redirect(route('hymns.view', $this->hymn->number + 1));
+        $this->redirect(route('hymns.view', $this->hymn->next()));
     }
 
     public function render()

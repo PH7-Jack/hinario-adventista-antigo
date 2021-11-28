@@ -12,6 +12,7 @@ class CreateAuthorHymnPivotTable extends Migration
         Schema::create('author_hymn', function (Blueprint $table) {
             $table->foreignIdFor(Author::class)->constrained()->cascadeOnDelete();
             $table->foreignIdFor(Hymn::class)->constrained()->cascadeOnDelete();
+
             $table->unique(['author_id', 'hymn_id']);
         });
     }

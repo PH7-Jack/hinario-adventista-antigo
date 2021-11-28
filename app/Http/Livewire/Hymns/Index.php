@@ -32,6 +32,7 @@ class Index extends Component
         return Hymn::query()
             ->selectRaw(<<<SQL
                 hymns.number,
+                hymns.slug,
                 hymns.title,
                 IFNULL(
                     GROUP_CONCAT(authors.name SEPARATOR ", "),

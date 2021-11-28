@@ -12,6 +12,7 @@ class CreateCategoryHymnPivotTable extends Migration
         Schema::create('category_hymn', function (Blueprint $table) {
             $table->foreignIdFor(Category::class)->constrained()->cascadeOnDelete();
             $table->foreignIdFor(Hymn::class)->constrained()->cascadeOnDelete();
+
             $table->unique(['category_id', 'hymn_id']);
         });
     }

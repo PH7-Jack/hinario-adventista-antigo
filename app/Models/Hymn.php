@@ -13,6 +13,7 @@ class Hymn extends Model
     protected $fillable = [
         'section_id',
         'number',
+        'slug',
         'title',
         'versicle',
     ];
@@ -49,5 +50,27 @@ class Hymn extends Model
     public function strophes(): HasMany
     {
         return $this->hasMany(Strophe::class);
+    }
+
+    public function resolveRouteBinding($value, $field = null)
+    {
+        if ($field === 'slug') {
+            return $this
+                ->where('slug', $value)
+                ->orWhere('number', $value)
+                ->firstOrFail();
+        }
+
+        return $this->where($field, $value)->firstOrFail();
+    }
+
+    public function previous(): self
+    {
+        return self::query()->where('number', $this->number - 1)->firstOrFail();
+    }
+
+    public function next(): self
+    {
+        return self::query()->where('number', $this->number + 1)->firstOrFail();
     }
 }
