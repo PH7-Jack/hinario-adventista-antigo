@@ -51,4 +51,16 @@ class Hymn extends Model
     {
         return $this->hasMany(Strophe::class);
     }
+
+    public function resolveRouteBinding($value, $field = null)
+    {
+        if ($field === 'slug') {
+            return $this
+                ->where('slug', $value)
+                ->orWhere('number', $value)
+                ->firstOrFail();
+        }
+
+        return $this->where($field, $value)->firstOrFail();
+    }
 }
