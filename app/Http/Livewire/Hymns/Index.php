@@ -58,19 +58,6 @@ class Index extends Component
         $this->keyboard = session('hymns.keyboard', true);
     }
 
-    public function open()
-    {
-        if ($this->search < 1 || $this->search > 610) {
-            return $this->notification()->notify([
-                'title'   => 'Você só pode digitar números entre 1 e 610',
-                'icon'    => 'info',
-                'timeout' => 3000,
-            ]);
-        }
-
-        return $this->redirect(route('hymns.view', $this->search));
-    }
-
     public function render()
     {
         return view('livewire.hymns.index')->layout(GuestLayout::class);

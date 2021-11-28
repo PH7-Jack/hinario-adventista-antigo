@@ -49,7 +49,7 @@
                     })
                 }
 
-                $wire.open()
+                window.location = `{{ route('hymns.view', '') }}/${this.search}`
             }
         }">
         <div class="flex flex-col justify-center items-center mx-auto mt-20 mb-12">
