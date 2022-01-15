@@ -81,7 +81,7 @@
         x-transition:leave-start="-translate-y-0"
         x-transition:leave-end="translate-y-full">
         <div class="flex items-center gap-x-4 py-3 px-4 sm:max-w-sm sm:mx-auto">
-            <div class="flex flex-shrink-0 p-1 bg-white text-gray-500 rounded-full shadow-md">
+            <div class="flex shrink-0 p-1 bg-white text-gray-500 rounded-full shadow-md">
                 <a href="{{ route('hymns.index') }}">
                     <x-button
                         class="font-bold text-lg bg-white"

@@ -1,12 +1,11 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
-const colors = require('tailwindcss/colors')
 
 module.exports = {
     mode: 'jit',
     presets: [
         require('./vendor/wireui/wireui/tailwind.config.js')
     ],
-    purge: [
+    content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './vendor/laravel/jetstream/**/*.blade.php',
         './storage/framework/views/*.php',
@@ -18,9 +17,6 @@ module.exports = {
 
     theme: {
         extend: {
-            colors: {
-                blueGray: colors.blueGray
-            },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },

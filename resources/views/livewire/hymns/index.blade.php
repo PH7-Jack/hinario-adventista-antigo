@@ -116,11 +116,11 @@
                     <li wire:key="hymns.{{ $hymn->number }}.{{ $loop->index }}">
                         <a class="
                                 flex items-center border rounded-lg shadow hover:shadow-md bg-white text-gray-600
-                                transition-all ease-in-out duration-200 overflow-ellipsis-overflow-hidden
-                                focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500
+                                transition-all ease-in-out duration-200 text-ellipsis focus:outline-none
+                                focus:ring-2 focus:ring-offset-2 focus:ring-primary-500
                             "
                             href="{{ route('hymns.view', $hymn) }}">
-                            <div class="w-16 p-4 text-xl font-semibold flex items-center justify-center flex-shrink-0 bg-gray-100">
+                            <div class="w-16 p-4 text-xl font-semibold flex items-center justify-center shrink-0 bg-gray-100">
                                 {{ $hymn->number }}
                             </div>
 

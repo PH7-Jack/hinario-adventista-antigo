@@ -38,7 +38,7 @@
         </style>
     </head>
 
-    <body class="font-sans text-gray-900 antialiased bg-blueGray-100">
+    <body class="font-sans text-gray-900 antialiased bg-slate-100">
         <x-notifications />
 
         {{ $slot }}
