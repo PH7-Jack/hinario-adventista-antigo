@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7edf70fba52b9867a457b19156d1779c",
+    "content-hash": "8d8bcb867b29626abf459a9678cae78e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2998,75 +2998,6 @@
                 "source": "https://github.com/paragonie/constant_time_encoding"
             },
             "time": "2020-12-06T15:14:20+00:00"
-        },
-        {
-            "name": "ph7jack/wireui",
-            "version": "v0.14.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PH7-Jack/wireui.git",
-                "reference": "7ecd004174419263e6034b093040b5b837be6d05"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PH7-Jack/wireui/zipball/7ecd004174419263e6034b093040b5b837be6d05",
-                "reference": "7ecd004174419263e6034b093040b5b837be6d05",
-                "shasum": ""
-            },
-            "require": {
-                "friendsofphp/php-cs-fixer": "^3.1",
-                "illuminate/database": "^8.0",
-                "illuminate/support": "^8.0",
-                "illuminate/validation": "^8.0",
-                "php": "^7.4|^8.0",
-                "symfony/http-kernel": "^5.0"
-            },
-            "require-dev": {
-                "laravel/framework": "^8.0",
-                "livewire/livewire": "^2.6",
-                "mockery/mockery": "^1.3.1",
-                "orchestra/testbench": "^6.0",
-                "orchestra/testbench-dusk": "^6.0",
-                "phpunit/phpunit": "^9.5",
-                "psy/psysh": "@stable"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "WireUi\\Providers\\WireUiServiceProvider"
-                    ],
-                    "aliases": []
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "WireUi\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pedro Henrique",
-                    "email": "pedrolivertwd@gmail.com"
-                }
-            ],
-            "description": "Livewire ui components with tailwind base style",
-            "keywords": [
-                "blade components",
-                "laravel components",
-                "livewire components",
-                "livewire-ui",
-                "wireui"
-            ],
-            "support": {
-                "issues": "https://github.com/PH7-Jack/wireui/issues",
-                "source": "https://github.com/PH7-Jack/wireui/tree/v0.14.1"
-            },
-            "time": "2021-11-12T03:39:07+00:00"
         },
         {
             "name": "php-cs-fixer/diff",
@@ -6735,6 +6666,75 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.10.0"
             },
             "time": "2021-03-09T10:59:23+00:00"
+        },
+        {
+            "name": "wireui/wireui",
+            "version": "v0.15.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wireui/wireui.git",
+                "reference": "3d97e2f2e983f3984495cb77d620993b675fddc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wireui/wireui/zipball/3d97e2f2e983f3984495cb77d620993b675fddc5",
+                "reference": "3d97e2f2e983f3984495cb77d620993b675fddc5",
+                "shasum": ""
+            },
+            "require": {
+                "friendsofphp/php-cs-fixer": "^3.1",
+                "illuminate/database": "^8.0",
+                "illuminate/support": "^8.0",
+                "illuminate/validation": "^8.0",
+                "php": "^7.4|^8.0",
+                "symfony/http-kernel": "^5.0"
+            },
+            "require-dev": {
+                "laravel/framework": "^8.0",
+                "livewire/livewire": "^2.6",
+                "mockery/mockery": "^1.3.1",
+                "orchestra/testbench": "^6.0",
+                "orchestra/testbench-dusk": "^6.0",
+                "phpunit/phpunit": "^9.5",
+                "psy/psysh": "@stable"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "WireUi\\Providers\\WireUiServiceProvider"
+                    ],
+                    "aliases": []
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "WireUi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pedro Henrique",
+                    "email": "pedrolivertwd@gmail.com"
+                }
+            ],
+            "description": "Livewire ui components with tailwind base style",
+            "keywords": [
+                "blade components",
+                "laravel components",
+                "livewire components",
+                "livewire-ui",
+                "wireui"
+            ],
+            "support": {
+                "issues": "https://github.com/wireui/wireui/issues",
+                "source": "https://github.com/wireui/wireui/tree/v0.15.0"
+            },
+            "time": "2021-12-17T02:06:18+00:00"
         }
     ],
     "packages-dev": [
