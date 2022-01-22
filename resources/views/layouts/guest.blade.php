@@ -7,12 +7,6 @@
 
         <title>{{ config('app.name', 'Hinario') }}</title>
 
-        <link rel="icon" type="image/png" sizes="128x128" href="{{ asset('icons/favicon-128x128.png') }}">
-        <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('icons/favicon-96x96.png') }}">
-        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('icons/favicon-32x32.png') }}">
-        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('icons/favicon-16x16.png') }}">
-        <link rel="icon" type="image/ico" href="{{ asset('favicon.ico') }}">
-
         <meta name="description" content="Hinário Adventista. Pesquise por hinos e louve ao Senhor.">
 
         <!-- Facebook Meta Tags -->
@@ -30,13 +24,25 @@
         <meta name="twitter:description" content="Hinário Adventista. Pesquise por hinos e louve ao Senhor.">
         <meta name="twitter:image" content="{{ asset('images/cover.png') }}">
 
+        <!-- favicons -->
+        <link rel="shortcut icon" type="image/png" sizes="128x128" href="{{ asset('icons/favicon-128x128.png') }}">
+        <link rel="shortcut icon" type="image/png" sizes="96x96" href="{{ asset('icons/favicon-96x96.png') }}">
+        <link rel="shortcut icon" type="image/png" sizes="32x32" href="{{ asset('icons/favicon-32x32.png') }}">
+        <link rel="shortcut icon" type="image/png" sizes="16x16" href="{{ asset('icons/favicon-16x16.png') }}">
+        <link rel="shortcut icon" type="image/ico" href="{{ asset('favicon.ico') }}">
+
         <!-- pwa tags -->
         <link rel="manifest" href="{{ asset('manifest.json') }}" />
         <meta name="theme-color" content="#f1f5f9" />
 
         <!-- apple capability -->
+        <meta name="apple-mobile-web-app-title" content="{{ config('app.name', 'Hinario') }}">
+        <meta name="apple-mobile-web-app-status-bar-style" content="default">
         <meta name="apple-mobile-web-app-status-bar" content="#f1f5f9" />
         <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!-- ms capability -->
+        <meta name="msapplication-TileColor" content="#f1f5f9">
 
         <!-- ms icons -->
         <meta name="msapplication-square70x70logo" content="{{ asset('icons/mstile-icon-128.png') }}">
