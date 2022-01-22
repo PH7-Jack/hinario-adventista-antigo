@@ -7,7 +7,11 @@
 
         <title>{{ config('app.name', 'Hinario') }}</title>
 
-        <link rel="icon" type="image/png" sizes="196x196" href="{{ asset('icons/favicon-196.png') }}">
+        <link rel="icon" type="image/png" sizes="128x128" href="{{ asset('icons/favicon-128x128.png') }}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('icons/favicon-96x96.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('icons/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('icons/favicon-16x16.png') }}">
+        <link rel="icon" type="image/ico" href="{{ asset('favicon.ico') }}">
 
         <meta name="description" content="Hinário Adventista. Pesquise por hinos e louve ao Senhor.">
 
@@ -27,14 +31,20 @@
         <meta name="twitter:image" content="{{ asset('images/cover.png') }}">
 
         <!-- pwa tags -->
-        <link rel="manifest" href="manifest.json" />
+        <link rel="manifest" href="{{ asset('manifest.json') }}" />
         <meta name="theme-color" content="#f1f5f9" />
+
+        <!-- apple capability -->
+        <meta name="apple-mobile-web-app-status-bar" content="#f1f5f9" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!-- ms icons -->
         <meta name="msapplication-square70x70logo" content="{{ asset('icons/mstile-icon-128.png') }}">
         <meta name="msapplication-square150x150logo" content="{{ asset('icons/mstile-icon-270.png') }}">
         <meta name="msapplication-square310x310logo" content="{{ asset('icons/mstile-icon-558.png') }}">
         <meta name="msapplication-wide310x150logo" content="{{ asset('icons/mstile-icon-558-270.png') }}">
-        <meta name="apple-mobile-web-app-status-bar" content="#f1f5f9" />
-        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <!-- apple icons -->
         <link rel="apple-touch-icon" href="{{ asset('icons/apple-icon-180.png') }}">
         <link rel="apple-touch-startup-image" href="{{ asset('icons/apple-splash-2048-2732.jpg') }}" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
         <link rel="apple-touch-startup-image" href="{{ asset('icons/apple-splash-2732-2048.jpg') }}" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
