@@ -30,7 +30,10 @@
             "number": 2,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["John Monsell (1811-1875)", "Edwin Barnes (1864-1930)"],
+            "authors": [
+                "John Monsell (1811-1875)",
+                "Edwin Barnes (1864-1930)"
+            ],
             "versicle": "Salmo 96:9",
             "strophes": [
                 {
@@ -102,7 +105,10 @@
             "number": 5,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["Anne Steels (1716-1778)", "HYMNS AND TUNES, 1869"],
+            "authors": [
+                "Anne Steels (1716-1778)",
+                "HYMNS AND TUNES, 1869"
+            ],
             "versicle": "Salmo 105:1-3",
             "strophes": [
                 {
@@ -149,7 +155,9 @@
             "number": 7,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["Joachim Neander (1650-1680)"],
+            "authors": [
+                "Joachim Neander (1650-1680)"
+            ],
             "versicle": "Salmo 9:1-2",
             "strophes": [
                 {
@@ -167,7 +175,7 @@
             ]
         },
         {
-            "title": "Ati Rendemos Gloria",
+            "title": "A ti Rendemos Gloria",
             "number": 8,
             "section": "Adoração",
             "category": "Adoração e Louvor",
@@ -196,7 +204,9 @@
             "number": 9,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["Felice de Giardini (1716-1796)"],
+            "authors": [
+                "Felice de Giardini (1716-1796)"
+            ],
             "versicle": "Salmo 138",
             "strophes": [
                 {
@@ -243,7 +253,10 @@
             "number": 11,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["Thomas Olivers (1725-1799)", "Melodia T. Judaica"],
+            "authors": [
+                "Thomas Olivers (1725-1799)",
+                "Melodia T. Judaica"
+            ],
             "versicle": "Êxodo 3:14 e 15",
             "strophes": [
                 {
@@ -398,7 +411,10 @@
             "number": 17,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["Edmond Budry (1854-1932)", "Franz Haydn (1732-1809)"],
+            "authors": [
+                "Edmond Budry (1854-1932)",
+                "Franz Haydn (1732-1809)"
+            ],
             "versicle": "Salmo 95:6",
             "strophes": [
                 {
@@ -445,7 +461,10 @@
             "number": 19,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["ECOLES DU DIMANCHE", "Wolfgang A. Mozart (1756-1791)"],
+            "authors": [
+                "ECOLES DU DIMANCHE",
+                "Wolfgang A. Mozart (1756-1791)"
+            ],
             "versicle": "Isaías 92:1-4",
             "strophes": [
                 {
@@ -467,7 +486,9 @@
             "number": 20,
             "section": "Adoração",
             "category": "Adoração e Louvor",
-            "authors": ["Melodia T. Holandesa"],
+            "authors": [
+                "Melodia T. Holandesa"
+            ],
             "versicle": "I Pedro 1:3-5",
             "strophes": [
                 {
@@ -630,7 +651,10 @@
             "number": 26,
             "section": "Adoração",
             "category": "Culto Matutino",
-            "authors": ["Em. Bonnard", "Ira D. Sankey (1840-1908)"],
+            "authors": [
+                "Em. Bonnard",
+                "Ira D. Sankey (1840-1908)"
+            ],
             "versicle": "Provérbios 4:18",
             "strophes": [
                 {
@@ -652,7 +676,9 @@
             "number": 27,
             "section": "Adoração",
             "category": "Culto Vespertino",
-            "authors": ["J. McGranahan (1840-1907)"],
+            "authors": [
+                "J. McGranahan (1840-1907)"
+            ],
             "versicle": "Romanos 13:11",
             "strophes": [
                 {
@@ -757,7 +783,9 @@
             "number": 31,
             "section": "Deus, o Pai",
             "category": "Deus, o Pai",
-            "authors": ["Frederick M. Lehman (1868-1953)"],
+            "authors": [
+                "Frederick M. Lehman (1868-1953)"
+            ],
             "versicle": "João 15:13",
             "strophes": [
                 {
@@ -783,7 +811,9 @@
             "number": 32,
             "section": "Deus, o Pai",
             "category": "Deus, o Pai",
-            "authors": ["Halen Griggs"],
+            "authors": [
+                "Halen Griggs"
+            ],
             "versicle": "Mateus 6:26-30",
             "strophes": [
                 {
@@ -809,7 +839,9 @@
             "number": 33,
             "section": "Deus, o Pai",
             "category": "Deus, o Pai",
-            "authors": ["Martinho Lutero (1483-1546)"],
+            "authors": [
+                "Martinho Lutero (1483-1546)"
+            ],
             "versicle": "Salmo 46:1",
             "strophes": [
                 {
@@ -951,7 +983,9 @@
             "number": 38,
             "section": "Deus, o Pai",
             "category": "Deus, o Pai",
-            "authors": ["George B. Shea (1909)"],
+            "authors": [
+                "George B. Shea (1909)"
+            ],
             "versicle": "I João 3:1",
             "strophes": [
                 {
@@ -1094,7 +1128,9 @@
             "number": 44,
             "section": "Jesus Cristo",
             "category": "Natal",
-            "authors": ["Melodia T. Inglesa"],
+            "authors": [
+                "Melodia T. Inglesa"
+            ],
             "versicle": "Mateus 2: 9-11",
             "strophes": [
                 {
@@ -1145,7 +1181,9 @@
             "number": 46,
             "section": "Jesus Cristo",
             "category": "Natal",
-            "authors": ["Francklin E. Belden (1858-1945)"],
+            "authors": [
+                "Francklin E. Belden (1858-1945)"
+            ],
             "versicle": "Mateus 2:1 e 2",
             "strophes": [
                 {
@@ -1196,7 +1234,10 @@
             "number": 48,
             "section": "Jesus Cristo",
             "category": "Natal",
-            "authors": ["Hino latino, séc. XVIII", "CANTUS DIVERSI, 1751"],
+            "authors": [
+                "Hino latino, séc. XVIII",
+                "CANTUS DIVERSI, 1751"
+            ],
             "versicle": "Mateus 2:11",
             "strophes": [
                 {
@@ -1222,7 +1263,9 @@
             "number": 49,
             "section": "Jesus Cristo",
             "category": "Natal",
-            "authors": ["Melodia T. Francesa"],
+            "authors": [
+                "Melodia T. Francesa"
+            ],
             "versicle": "Lucas 2: 13 e 14",
             "strophes": [
                 {
@@ -1252,7 +1295,10 @@
             "number": 50,
             "section": "Jesus Cristo",
             "category": "Natal",
-            "authors": ["LITLE C. BOOK, 1885", "James R. Murray (1841-1905)"],
+            "authors": [
+                "LITLE C. BOOK, 1885",
+                "James R. Murray (1841-1905)"
+            ],
             "versicle": "Lucas 2: 15 e 16",
             "strophes": [
                 {
@@ -1274,7 +1320,10 @@
             "number": 51,
             "section": "Jesus Cristo",
             "category": "Natal",
-            "authors": ["Dario P. Araújo (1937)", "Melodia T. Siciliana"],
+            "authors": [
+                "Dario P. Araújo (1937)",
+                "Melodia T. Siciliana"
+            ],
             "versicle": "Lucas 2: 4-7",
             "strophes": [
                 {
@@ -1292,7 +1341,9 @@
             "number": 52,
             "section": "Jesus Cristo",
             "category": "Vida e Ministério",
-            "authors": ["Henry Barraclough (1891-1983)"],
+            "authors": [
+                "Henry Barraclough (1891-1983)"
+            ],
             "versicle": "Salmo 45:8",
             "strophes": [
                 {
@@ -1434,7 +1485,9 @@
             "number": 57,
             "section": "Jesus Cristo",
             "category": "Vida e Ministério",
-            "authors": ["Frederico G. Jr (1925)"],
+            "authors": [
+                "Frederico G. Jr (1925)"
+            ],
             "versicle": "Mateus 13:17",
             "strophes": [
                 {
@@ -1493,7 +1546,9 @@
             "number": 59,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["Negro Spiritual"],
+            "authors": [
+                "Negro Spiritual"
+            ],
             "versicle": "Marcos 15: 21-25",
             "strophes": [
                 {
@@ -1515,7 +1570,9 @@
             "number": 60,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["Williams S. C. Jr (1951)"],
+            "authors": [
+                "Williams S. C. Jr (1951)"
+            ],
             "versicle": "Romanos 5:8-10",
             "strophes": [
                 {
@@ -1537,7 +1594,9 @@
             "number": 61,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["Carl H. Lowden (1883-1963)"],
+            "authors": [
+                "Carl H. Lowden (1883-1963)"
+            ],
             "versicle": "Romanos 5:8-10",
             "strophes": [
                 {
@@ -1563,7 +1622,9 @@
             "number": 62,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["Keith Whitford (1917-2000)"],
+            "authors": [
+                "Keith Whitford (1917-2000)"
+            ],
             "versicle": "João 19:17 e 18",
             "strophes": [
                 {
@@ -1635,7 +1696,10 @@
             "number": 65,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["Poema Latino Mediaval", "Hans L. Hassler (1564-1612)"],
+            "authors": [
+                "Poema Latino Mediaval",
+                "Hans L. Hassler (1564-1612)"
+            ],
             "versicle": "Mateus 27:29 e 30",
             "strophes": [
                 {
@@ -1657,7 +1721,9 @@
             "number": 66,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["Ira F. Stanphill (1914-1993)"],
+            "authors": [
+                "Ira F. Stanphill (1914-1993)"
+            ],
             "versicle": "Mateus 16:24 e 25",
             "strophes": [
                 {
@@ -1675,7 +1741,9 @@
             "number": 67,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["William M. Runyan (1870-1967)"],
+            "authors": [
+                "William M. Runyan (1870-1967)"
+            ],
             "versicle": "Filipenses 2:5-8",
             "strophes": [
                 {
@@ -1701,7 +1769,10 @@
             "number": 68,
             "section": "Jesus Cristo",
             "category": "Sofrimento e Morte",
-            "authors": ["Maud Frazer, 1911", "Robert Harkness (1880-1961)"],
+            "authors": [
+                "Maud Frazer, 1911",
+                "Robert Harkness (1880-1961)"
+            ],
             "versicle": "Lucas 23:44-46",
             "strophes": [
                 {
@@ -1723,7 +1794,10 @@
             "number": 69,
             "section": "Jesus Cristo",
             "category": "Ressurreição e Glorificação",
-            "authors": ["Charles Wesley (1707-1788)", "LYRA DAVIDICA, 1708"],
+            "authors": [
+                "Charles Wesley (1707-1788)",
+                "LYRA DAVIDICA, 1708"
+            ],
             "versicle": "Mateus 28:5-7",
             "strophes": [
                 {
@@ -1832,7 +1906,9 @@
             "number": 73,
             "section": "Jesus Cristo",
             "category": "Ressurreição e Glorificação",
-            "authors": ["Jack W. Hayford (1934)"],
+            "authors": [
+                "Jack W. Hayford (1934)"
+            ],
             "versicle": "Apocalipse 17: 14",
             "strophes": [
                 {
@@ -1875,7 +1951,9 @@
             "number": 75,
             "section": "Jesus Cristo",
             "category": "Ressurreição e Glorificação",
-            "authors": ["Henry de Fluiter (1872-1970)"],
+            "authors": [
+                "Henry de Fluiter (1872-1970)"
+            ],
             "versicle": "Apocalipse 15:2 e 3",
             "strophes": [
                 {
@@ -1959,7 +2037,9 @@
             "number": 78,
             "section": "Jesus Cristo",
             "category": "Ressurreição e Glorificação",
-            "authors": ["Thomas Kelly (1769-1855)"],
+            "authors": [
+                "Thomas Kelly (1769-1855)"
+            ],
             "versicle": "Apocalipse 4: 10-11",
             "strophes": [
                 {
@@ -1985,7 +2065,9 @@
             "number": 79,
             "section": "Jesus Cristo",
             "category": "Ressurreição e Glorificação",
-            "authors": ["Lelia N. Morris (1862-1929)"],
+            "authors": [
+                "Lelia N. Morris (1862-1929)"
+            ],
             "versicle": "1 Timóteo 1: 15-17",
             "strophes": [
                 {
@@ -2119,7 +2201,10 @@
             "number": 84,
             "section": "Jesus Cristo",
             "category": "Ressurreição e Glorificação",
-            "authors": ["Ruben Sailens (1855-1942)", "Melodia T Inglesa"],
+            "authors": [
+                "Ruben Sailens (1855-1942)",
+                "Melodia T Inglesa"
+            ],
             "versicle": "Apocalipse 15:3",
             "strophes": [
                 {
@@ -2149,7 +2234,10 @@
             "number": 85,
             "section": "Jesus Cristo",
             "category": "Ressurreição e Glorificação",
-            "authors": ["MUNSTER GESANGBUCH, 1677", "Melodia T Silesiana"],
+            "authors": [
+                "MUNSTER GESANGBUCH, 1677",
+                "Melodia T Silesiana"
+            ],
             "versicle": "Salmo 45:2",
             "strophes": [
                 {
@@ -2284,7 +2372,9 @@
             "number": 90,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Jonas M. de Souza (1916-2004)"],
+            "authors": [
+                "Jonas M. de Souza (1916-2004)"
+            ],
             "versicle": "Apocalipse 3:20",
             "strophes": [
                 {
@@ -2306,7 +2396,10 @@
             "number": 91,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Rhea F. Miller (1894-1966)", "George B. Shea (1909)"],
+            "authors": [
+                "Rhea F. Miller (1894-1966)",
+                "George B. Shea (1909)"
+            ],
             "versicle": "Apocalipse 3:20",
             "strophes": [
                 {
@@ -2357,7 +2450,9 @@
             "number": 93,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Charles H. Gabriel (1856-1932)"],
+            "authors": [
+                "Charles H. Gabriel (1856-1932)"
+            ],
             "versicle": "Filipenses 3:8",
             "strophes": [
                 {
@@ -2383,7 +2478,9 @@
             "number": 94,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Norman J. Clayton (1903-1992)"],
+            "authors": [
+                "Norman J. Clayton (1903-1992)"
+            ],
             "versicle": "I Coríntios 6:20",
             "strophes": [
                 {
@@ -2409,7 +2506,9 @@
             "number": 95,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Will L. Thompson (1847-1909)"],
+            "authors": [
+                "Will L. Thompson (1847-1909)"
+            ],
             "versicle": "Filipenses 3:7 e 8",
             "strophes": [
                 {
@@ -2435,7 +2534,9 @@
             "number": 96,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Scott Lawrence"],
+            "authors": [
+                "Scott Lawrence"
+            ],
             "versicle": "I João 4:14-16",
             "strophes": [
                 {
@@ -2486,7 +2587,9 @@
             "number": 98,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Robert Harkness (1880-1961)"],
+            "authors": [
+                "Robert Harkness (1880-1961)"
+            ],
             "versicle": "Hebreus 12:2 e 3",
             "strophes": [
                 {
@@ -2570,7 +2673,9 @@
             "number": 101,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Salmo 113:1-3",
             "strophes": [
                 {
@@ -2766,7 +2871,9 @@
             "number": 108,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["E. E. Hasty"],
+            "authors": [
+                "E. E. Hasty"
+            ],
             "versicle": "I Timóteo 1:15 e 16",
             "strophes": [
                 {
@@ -2887,7 +2994,9 @@
             "number": 112,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Alfred henry Ackley (1887-1960)"],
+            "authors": [
+                "Alfred henry Ackley (1887-1960)"
+            ],
             "versicle": "Apocalipse 1:17 e 18",
             "strophes": [
                 {
@@ -2946,7 +3055,10 @@
             "number": 114,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["C. M. F", "Charles M. Filmore (1860-1952)"],
+            "authors": [
+                "C. M. F",
+                "Charles M. Filmore (1860-1952)"
+            ],
             "versicle": "Lucas 4:18 e 19",
             "strophes": [
                 {
@@ -2976,7 +3088,10 @@
             "number": 115,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["John E. Walvood, 1970", "Donald J. Wyrtzen (1942)"],
+            "authors": [
+                "John E. Walvood, 1970",
+                "Donald J. Wyrtzen (1942)"
+            ],
             "versicle": "João 15:13",
             "strophes": [
                 {
@@ -2994,7 +3109,10 @@
             "number": 116,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Jean Perry (1865-1935)", "Mabel J. Camp (1871-1937)"],
+            "authors": [
+                "Jean Perry (1865-1935)",
+                "Mabel J. Camp (1871-1937)"
+            ],
             "versicle": "Isaías 9:6",
             "strophes": [
                 {
@@ -3049,7 +3167,9 @@
             "number": 118,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["GESANGBUCH DER HERZOGL, 1784"],
+            "authors": [
+                "GESANGBUCH DER HERZOGL, 1784"
+            ],
             "versicle": "João 14:1-3",
             "strophes": [
                 {
@@ -3075,7 +3195,9 @@
             "number": 119,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Peter P. Bilhorn (1865-1936)"],
+            "authors": [
+                "Peter P. Bilhorn (1865-1936)"
+            ],
             "versicle": "João 15:13",
             "strophes": [
                 {
@@ -3134,7 +3256,9 @@
             "number": 121,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Hebert A. Work (1904-1982)"],
+            "authors": [
+                "Hebert A. Work (1904-1982)"
+            ],
             "versicle": "João 10:14",
             "strophes": [
                 {
@@ -3156,7 +3280,9 @@
             "number": 122,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Charles F. Weigle (1871-1966)"],
+            "authors": [
+                "Charles F. Weigle (1871-1966)"
+            ],
             "versicle": "Romanos 5:8-11",
             "strophes": [
                 {
@@ -3186,7 +3312,9 @@
             "number": 123,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["W. E. Mercer (1932)"],
+            "authors": [
+                "W. E. Mercer (1932)"
+            ],
             "versicle": "João 15:9",
             "strophes": [
                 {
@@ -3212,7 +3340,9 @@
             "number": 124,
             "section": "Jesus Cristo",
             "category": "Pastor e Amigo",
-            "authors": ["Marjorie L. Loyd (1911-1985)"],
+            "authors": [
+                "Marjorie L. Loyd (1911-1985)"
+            ],
             "versicle": "Isaías 49:15 e 16",
             "strophes": [
                 {
@@ -3296,7 +3426,9 @@
             "number": 127,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["John H. Kurzenknabe (1840- ?)"],
+            "authors": [
+                "John H. Kurzenknabe (1840- ?)"
+            ],
             "versicle": "Mateus 24:30 e 31",
             "strophes": [
                 {
@@ -3376,7 +3508,9 @@
             "number": 130,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Apocalipse 14:14 e 15",
             "strophes": [
                 {
@@ -3402,7 +3536,9 @@
             "number": 131,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Tomas Hastings (1784-1872)"],
+            "authors": [
+                "Tomas Hastings (1784-1872)"
+            ],
             "versicle": "Apocalipse 14:14 e 16",
             "strophes": [
                 {
@@ -3424,7 +3560,10 @@
             "number": 132,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["J. E. Landor", "Edmund S. Lorenz (1854-1942)"],
+            "authors": [
+                "J. E. Landor",
+                "Edmund S. Lorenz (1854-1942)"
+            ],
             "versicle": "Apocalipse 1:7",
             "strophes": [
                 {
@@ -3483,7 +3622,10 @@
             "number": 134,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Jessie E. Strout, 1872", "George E. Lee, 1872"],
+            "authors": [
+                "Jessie E. Strout, 1872",
+                "George E. Lee, 1872"
+            ],
             "versicle": "Apocalipse 22:20",
             "strophes": [
                 {
@@ -3513,7 +3655,10 @@
             "number": 135,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Sidney S. Brewer", "William B. Bradbury (1816-1868)"],
+            "authors": [
+                "Sidney S. Brewer",
+                "William B. Bradbury (1816-1868)"
+            ],
             "versicle": "Isaías 21:11 e 12",
             "strophes": [
                 {
@@ -3564,7 +3709,9 @@
             "number": 137,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Negro Espiritual"],
+            "authors": [
+                "Negro Espiritual"
+            ],
             "versicle": "Isaías 40:9 e 10",
             "strophes": [
                 {
@@ -3590,7 +3737,9 @@
             "number": 138,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["S. J. Graham, 1744"],
+            "authors": [
+                "S. J. Graham, 1744"
+            ],
             "versicle": "Mateus 24:32-34",
             "strophes": [
                 {
@@ -3616,7 +3765,9 @@
             "number": 139,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Apocalipse 11:15",
             "strophes": [
                 {
@@ -3642,7 +3793,10 @@
             "number": 140,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Hino Latino, séc. IX", "Melodia Gregoriana"],
+            "authors": [
+                "Hino Latino, séc. IX",
+                "Melodia Gregoriana"
+            ],
             "versicle": "Mateus 1:23",
             "strophes": [
                 {
@@ -3668,7 +3822,9 @@
             "number": 141,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Mateus 24:36",
             "strophes": [
                 {
@@ -3744,7 +3900,9 @@
             "number": 144,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["George W. Sederquist (1838-1921)"],
+            "authors": [
+                "George W. Sederquist (1838-1921)"
+            ],
             "versicle": "Mateus 24:29-33",
             "strophes": [
                 {
@@ -3808,7 +3966,10 @@
             "number": 147,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["James Bingham (1945)", "Wintley Phipps (1955)"],
+            "authors": [
+                "James Bingham (1945)",
+                "Wintley Phipps (1955)"
+            ],
             "versicle": "Isaías 25:9",
             "strophes": [
                 {
@@ -3855,7 +4016,10 @@
             "number": 149,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["W. G. Irvin", "James H. Filmore (1849-1936)"],
+            "authors": [
+                "W. G. Irvin",
+                "James H. Filmore (1849-1936)"
+            ],
             "versicle": "I Tessalonicenses 4:16-18",
             "strophes": [
                 {
@@ -3885,7 +4049,9 @@
             "number": 150,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["Chuck Fulmore"],
+            "authors": [
+                "Chuck Fulmore"
+            ],
             "versicle": "Mateus 24:10-13",
             "strophes": [
                 {
@@ -3907,7 +4073,9 @@
             "number": 151,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["John W. Peterson (1921-2006)"],
+            "authors": [
+                "John W. Peterson (1921-2006)"
+            ],
             "versicle": "Mateus 24:10-13",
             "strophes": [
                 {
@@ -3966,7 +4134,10 @@
             "number": 153,
             "section": "Jesus Cristo",
             "category": "Segunda Vinda",
-            "authors": ["W. C. Gage", "Henry C. Work"],
+            "authors": [
+                "W. C. Gage",
+                "Henry C. Work"
+            ],
             "versicle": "Mateus 24:32 e 33",
             "strophes": [
                 {
@@ -3992,7 +4163,9 @@
             "number": 154,
             "section": "Espirito Santo",
             "category": "Espirito Santo",
-            "authors": ["Thomas Hasting (1784-1872)"],
+            "authors": [
+                "Thomas Hasting (1784-1872)"
+            ],
             "versicle": "João 14:25 e 26",
             "strophes": [
                 {
@@ -4072,7 +4245,9 @@
             "number": 157,
             "section": "Espirito Santo",
             "category": "Espirito Santo",
-            "authors": ["John W. Peterson (1921-2006)"],
+            "authors": [
+                "John W. Peterson (1921-2006)"
+            ],
             "versicle": "Atos 1:8",
             "strophes": [
                 {
@@ -4094,7 +4269,10 @@
             "number": 158,
             "section": "Espirito Santo",
             "category": "Espirito Santo",
-            "authors": ["D. A", "Doris Akers (1922-1995)"],
+            "authors": [
+                "D. A",
+                "Doris Akers (1922-1995)"
+            ],
             "versicle": "Gálatas 4:6",
             "strophes": [
                 {
@@ -4203,7 +4381,9 @@
             "number": 162,
             "section": "Santa Escritura",
             "category": "Santa Escritura",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Atos 17:11",
             "strophes": [
                 {
@@ -4254,7 +4434,10 @@
             "number": 164,
             "section": "Santa Escritura",
             "category": "Santa Escritura",
-            "authors": ["SELECTION OF HYMNS, 1787", "CANTUS DIVERSI, 1751"],
+            "authors": [
+                "SELECTION OF HYMNS, 1787",
+                "CANTUS DIVERSI, 1751"
+            ],
             "versicle": "II Pedro 1:19",
             "strophes": [
                 {
@@ -4309,7 +4492,9 @@
             "number": 166,
             "section": "Santa Escritura",
             "category": "Santa Escritura",
-            "authors": ["Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "Lucas 2:10 e 11",
             "strophes": [
                 {
@@ -4335,7 +4520,9 @@
             "number": 167,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["John Fawcet (1740-1817)"],
+            "authors": [
+                "John Fawcet (1740-1817)"
+            ],
             "versicle": "Mateus 11:28",
             "strophes": [
                 {
@@ -4365,7 +4552,9 @@
             "number": 168,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["João Diener (1889-1963)"],
+            "authors": [
+                "João Diener (1889-1963)"
+            ],
             "versicle": "Isaías 1:18-20",
             "strophes": [
                 {
@@ -4395,7 +4584,9 @@
             "number": 169,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["C. C. Williams (? -1882)"],
+            "authors": [
+                "C. C. Williams (? -1882)"
+            ],
             "versicle": "Apocalipse 3:20",
             "strophes": [
                 {
@@ -4421,7 +4612,10 @@
             "number": 170,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["Ellen K. Bradford", "Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Ellen K. Bradford",
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Lucas 15:17-24",
             "strophes": [
                 {
@@ -4501,7 +4695,9 @@
             "number": 173,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["Ralph R. Carmichael (1927)"],
+            "authors": [
+                "Ralph R. Carmichael (1927)"
+            ],
             "versicle": "Apocalipse 3:20",
             "strophes": [
                 {
@@ -4548,7 +4744,9 @@
             "number": 175,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["Will L. Thompson (1847-1909)"],
+            "authors": [
+                "Will L. Thompson (1847-1909)"
+            ],
             "versicle": "Mateus 11:28-30",
             "strophes": [
                 {
@@ -4603,7 +4801,10 @@
             "number": 177,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["W. H. Bellamy", "William J. Kirkpatrick (1838-1921)"],
+            "authors": [
+                "W. H. Bellamy",
+                "William J. Kirkpatrick (1838-1921)"
+            ],
             "versicle": "Mateus 11:28",
             "strophes": [
                 {
@@ -4633,7 +4834,9 @@
             "number": 178,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["Ernst H. Gebhardt (1832-1899)"],
+            "authors": [
+                "Ernst H. Gebhardt (1832-1899)"
+            ],
             "versicle": "João 3:16",
             "strophes": [
                 {
@@ -4663,7 +4866,10 @@
             "number": 179,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["Sra. J. G. Johnson", "James McGranahan (1840-1907)"],
+            "authors": [
+                "Sra. J. G. Johnson",
+                "James McGranahan (1840-1907)"
+            ],
             "versicle": "Mateus 11:28-30",
             "strophes": [
                 {
@@ -4772,7 +4978,9 @@
             "number": 183,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["Lelia N. Morris (1862-1929)"],
+            "authors": [
+                "Lelia N. Morris (1862-1929)"
+            ],
             "versicle": "Provérbios 23:26",
             "strophes": [
                 {
@@ -4831,7 +5039,9 @@
             "number": 185,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["A. J. Hodge"],
+            "authors": [
+                "A. J. Hodge"
+            ],
             "versicle": "Mateus 16:26",
             "strophes": [
                 {
@@ -4857,7 +5067,9 @@
             "number": 186,
             "section": "O Evangelho",
             "category": "Chamado",
-            "authors": ["Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "Isaías 40:9",
             "strophes": [
                 {
@@ -4937,7 +5149,9 @@
             "number": 189,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["Ira F. Stanphill (1914-1993)"],
+            "authors": [
+                "Ira F. Stanphill (1914-1993)"
+            ],
             "versicle": "Lucas 23:33 e 34",
             "strophes": [
                 {
@@ -4963,7 +5177,9 @@
             "number": 190,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["John W. Peterson (1921-2006)"],
+            "authors": [
+                "John W. Peterson (1921-2006)"
+            ],
             "versicle": "Lucas 22:61 e 62",
             "strophes": [
                 {
@@ -5022,7 +5238,9 @@
             "number": 192,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["Melodia Tradicional Cubana"],
+            "authors": [
+                "Melodia Tradicional Cubana"
+            ],
             "versicle": "Salmo 51:1 e 2",
             "strophes": [
                 {
@@ -5152,7 +5370,10 @@
             "number": 197,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["W. J. G", "William J. Gaither (1936)"],
+            "authors": [
+                "W. J. G",
+                "William J. Gaither (1936)"
+            ],
             "versicle": "Marcos 1:40-42",
             "strophes": [
                 {
@@ -5174,7 +5395,9 @@
             "number": 198,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["John W. Peterson (1921-2006)"],
+            "authors": [
+                "John W. Peterson (1921-2006)"
+            ],
             "versicle": "I Timóteo 1.15",
             "strophes": [
                 {
@@ -5200,7 +5423,10 @@
             "number": 199,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["W. A. O", "William A. Ogden (1841-1897)"],
+            "authors": [
+                "W. A. O",
+                "William A. Ogden (1841-1897)"
+            ],
             "versicle": "Isaías 45:22",
             "strophes": [
                 {
@@ -5226,7 +5452,10 @@
             "number": 200,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["E. L. Maxwell", "Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "E. L. Maxwell",
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "João 3:14 e 15",
             "strophes": [
                 {
@@ -5252,7 +5481,9 @@
             "number": 201,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["Richard Blanchard (1925)"],
+            "authors": [
+                "Richard Blanchard (1925)"
+            ],
             "versicle": "Salmo 23:5",
             "strophes": [
                 {
@@ -5336,7 +5567,9 @@
             "number": 204,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["Haldor lilenas (1885-1959)"],
+            "authors": [
+                "Haldor lilenas (1885-1959)"
+            ],
             "versicle": "Efésios 2:7",
             "strophes": [
                 {
@@ -5391,7 +5624,9 @@
             "number": 206,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["Lewis E. Jones (1865-1936)"],
+            "authors": [
+                "Lewis E. Jones (1865-1936)"
+            ],
             "versicle": "Efésios 1:6 e 7",
             "strophes": [
                 {
@@ -5545,7 +5780,9 @@
             "number": 211,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["George Bennard (1873-1958)"],
+            "authors": [
+                "George Bennard (1873-1958)"
+            ],
             "versicle": "Gálatas 6:4",
             "strophes": [
                 {
@@ -5575,7 +5812,9 @@
             "number": 212,
             "section": "O Evangelho",
             "category": "Graça e Redenção",
-            "authors": ["C. Austin Miles (1868-1946)"],
+            "authors": [
+                "C. Austin Miles (1868-1946)"
+            ],
             "versicle": "Apocalipse 2:17",
             "strophes": [
                 {
@@ -5859,7 +6098,9 @@
             "number": 222,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["Elton M. Roth (1891-1951)"],
+            "authors": [
+                "Elton M. Roth (1891-1951)"
+            ],
             "versicle": "Salmo 40:3",
             "strophes": [
                 {
@@ -5885,7 +6126,9 @@
             "number": 223,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["Lelia N. Morris (1862-1929)"],
+            "authors": [
+                "Lelia N. Morris (1862-1929)"
+            ],
             "versicle": "Salmo 40:1-3",
             "strophes": [
                 {
@@ -5911,7 +6154,9 @@
             "number": 224,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["Baylus B. McKinney (1886-1952)"],
+            "authors": [
+                "Baylus B. McKinney (1886-1952)"
+            ],
             "versicle": "I Timóteo 1:15-17",
             "strophes": [
                 {
@@ -5962,7 +6207,9 @@
             "number": 226,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["Alfred H. Ackley (1887-1960)"],
+            "authors": [
+                "Alfred H. Ackley (1887-1960)"
+            ],
             "versicle": "Salmo 30:5",
             "strophes": [
                 {
@@ -6025,7 +6272,9 @@
             "number": 228,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["Peter P. Bilhorn (1865-1936)"],
+            "authors": [
+                "Peter P. Bilhorn (1865-1936)"
+            ],
             "versicle": "Isaías 26:3",
             "strophes": [
                 {
@@ -6113,7 +6362,9 @@
             "number": 231,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["Luther B. Bridgers (1884-1948)"],
+            "authors": [
+                "Luther B. Bridgers (1884-1948)"
+            ],
             "versicle": "Salmo 40:1-3",
             "strophes": [
                 {
@@ -6285,7 +6536,9 @@
             "number": 237,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["Cleland Boyd McAfee (1866-1944)"],
+            "authors": [
+                "Cleland Boyd McAfee (1866-1944)"
+            ],
             "versicle": "Salmo 103:11-13",
             "strophes": [
                 {
@@ -6311,7 +6564,10 @@
             "number": 238,
             "section": "Vida Cristã",
             "category": "Alegria e Paz",
-            "authors": ["F. E. B", "Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "F. E. B",
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "João 13:34 e 35",
             "strophes": [
                 {
@@ -6428,7 +6684,10 @@
             "number": 242,
             "section": "Vida Cristã",
             "category": "Gratidão e Louvor",
-            "authors": ["Henry F. Lyle (1793-1947)", "John Gross (1800-1880)"],
+            "authors": [
+                "Henry F. Lyle (1793-1947)",
+                "John Gross (1800-1880)"
+            ],
             "versicle": "Salmo 103:1 e 2",
             "strophes": [
                 {
@@ -6454,7 +6713,9 @@
             "number": 243,
             "section": "Vida Cristã",
             "category": "Gratidão e Louvor",
-            "authors": ["Horner W. Grimes (1937)"],
+            "authors": [
+                "Horner W. Grimes (1937)"
+            ],
             "versicle": "Salmo 116:12 e 13",
             "strophes": [
                 {
@@ -6513,7 +6774,9 @@
             "number": 245,
             "section": "Vida Cristã",
             "category": "Gratidão e Louvor",
-            "authors": ["Flávio A Santos (1963)"],
+            "authors": [
+                "Flávio A Santos (1963)"
+            ],
             "versicle": "I Coríntios 15:57",
             "strophes": [
                 {
@@ -6577,7 +6840,9 @@
             "number": 248,
             "section": "Vida Cristã",
             "category": "Gratidão e Louvor",
-            "authors": ["Edwin O. Excell (1851-1921)"],
+            "authors": [
+                "Edwin O. Excell (1851-1921)"
+            ],
             "versicle": "I Timóteo 1:15-17",
             "strophes": [
                 {
@@ -6607,7 +6872,9 @@
             "number": 249,
             "section": "Vida Cristã",
             "category": "Gratidão e Louvor",
-            "authors": ["Andraé Crouch (1942)"],
+            "authors": [
+                "Andraé Crouch (1942)"
+            ],
             "versicle": "Salmo 116:12 e 13",
             "strophes": [
                 {
@@ -6629,7 +6896,10 @@
             "number": 250,
             "section": "Vida Cristã",
             "category": "Gratidão e Louvor",
-            "authors": ["F. E. B", "Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "F. E. B",
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Efésios 2:4-7",
             "strophes": [
                 {
@@ -6655,7 +6925,9 @@
             "number": 251,
             "section": "Vida Cristã",
             "category": "Fé e Confiança",
-            "authors": ["H. L. Graham"],
+            "authors": [
+                "H. L. Graham"
+            ],
             "versicle": "Marcos 11:22",
             "strophes": [
                 {
@@ -6760,7 +7032,9 @@
             "number": 255,
             "section": "Vida Cristã",
             "category": "Fé e Confiança",
-            "authors": ["Ruth Harms Calkin"],
+            "authors": [
+                "Ruth Harms Calkin"
+            ],
             "versicle": "Salmo 37:5",
             "strophes": [
                 {
@@ -7023,7 +7297,10 @@
             "number": 264,
             "section": "Vida Cristã",
             "category": "Fé e Confiança",
-            "authors": ["Lydia Shivers (1873-1962)", "Adam Geibel (1855-1933)"],
+            "authors": [
+                "Lydia Shivers (1873-1962)",
+                "Adam Geibel (1855-1933)"
+            ],
             "versicle": "Romanos 8:18 e 19",
             "strophes": [
                 {
@@ -7049,7 +7326,9 @@
             "number": 265,
             "section": "Vida Cristã",
             "category": "Fé e Confiança",
-            "authors": ["Melodia Tradicional Americana"],
+            "authors": [
+                "Melodia Tradicional Americana"
+            ],
             "versicle": "Marcos 9:23 e 24",
             "strophes": [
                 {
@@ -7075,7 +7354,9 @@
             "number": 266,
             "section": "Vida Cristã",
             "category": "Fé e Confiança",
-            "authors": ["Peter P. Bilhorn (1865-1936)"],
+            "authors": [
+                "Peter P. Bilhorn (1865-1936)"
+            ],
             "versicle": "I Pedro 4: 12 e 13",
             "strophes": [
                 {
@@ -7309,7 +7590,9 @@
             "number": 274,
             "section": "Vida Cristã",
             "category": "Fé e Confiança",
-            "authors": ["Russel K. Carter (1849-1928)"],
+            "authors": [
+                "Russel K. Carter (1849-1928)"
+            ],
             "versicle": "II Pedro 1:3 e 4",
             "strophes": [
                 {
@@ -7360,7 +7643,9 @@
             "number": 276,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["C. Maude Battersby"],
+            "authors": [
+                "C. Maude Battersby"
+            ],
             "versicle": "Salmo 139:23 e 24",
             "strophes": [
                 {
@@ -7552,7 +7837,9 @@
             "number": 283,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["Leila N. Morris (1862-1929)"],
+            "authors": [
+                "Leila N. Morris (1862-1929)"
+            ],
             "versicle": "Mateus 26:39",
             "strophes": [
                 {
@@ -7636,7 +7923,10 @@
             "number": 286,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["W. J. Bostwick", "Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "W. J. Bostwick",
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Isaías 55:6 e 7",
             "strophes": [
                 {
@@ -7853,7 +8143,9 @@
             "number": 294,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["Fannie E. Bolton (1859-1926)"],
+            "authors": [
+                "Fannie E. Bolton (1859-1926)"
+            ],
             "versicle": "Gálatas 2:19 e 20",
             "strophes": [
                 {
@@ -7934,7 +8226,9 @@
             "number": 297,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["Ballington Booth (1859-1940)"],
+            "authors": [
+                "Ballington Booth (1859-1940)"
+            ],
             "versicle": "Mateus 16:24",
             "strophes": [
                 {
@@ -7960,7 +8254,9 @@
             "number": 298,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["Ballington Booth (1859-1940)"],
+            "authors": [
+                "Ballington Booth (1859-1940)"
+            ],
             "versicle": "Mateus 16:24",
             "strophes": [
                 {
@@ -8011,7 +8307,9 @@
             "number": 300,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["Lowell Mason (1792-1872)"],
+            "authors": [
+                "Lowell Mason (1792-1872)"
+            ],
             "versicle": "Romanos 13:11",
             "strophes": [
                 {
@@ -8070,7 +8368,9 @@
             "number": 302,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "Filipenses 4:13",
             "strophes": [
                 {
@@ -8096,7 +8396,9 @@
             "number": 303,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["C. Austin Miles (1868-1946)"],
+            "authors": [
+                "C. Austin Miles (1868-1946)"
+            ],
             "versicle": "Salmo 126:6",
             "strophes": [
                 {
@@ -8122,7 +8424,9 @@
             "number": 304,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["Lelia N. Morris (1862-1929)"],
+            "authors": [
+                "Lelia N. Morris (1862-1929)"
+            ],
             "versicle": "II Coríntios 3:2 e 3",
             "strophes": [
                 {
@@ -8148,7 +8452,9 @@
             "number": 305,
             "section": "Vida Cristã",
             "category": "Consagração e Lealdade",
-            "authors": ["W. H. Pike"],
+            "authors": [
+                "W. H. Pike"
+            ],
             "versicle": "João 2:5",
             "strophes": [
                 {
@@ -8174,7 +8480,9 @@
             "number": 306,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["George Bennard (1873-1958)"],
+            "authors": [
+                "George Bennard (1873-1958)"
+            ],
             "versicle": "Isaías 6:8",
             "strophes": [
                 {
@@ -8200,7 +8508,10 @@
             "number": 307,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Sra. J. Hunter", "W. T. Meyr"],
+            "authors": [
+                "Sra. J. Hunter",
+                "W. T. Meyr"
+            ],
             "versicle": "João 9:4",
             "strophes": [
                 {
@@ -8255,7 +8566,9 @@
             "number": 309,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Charles H. Gabriel (1856-1932)"],
+            "authors": [
+                "Charles H. Gabriel (1856-1932)"
+            ],
             "versicle": "João 4: 35 e 36",
             "strophes": [
                 {
@@ -8310,7 +8623,9 @@
             "number": 311,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Charles H. Gabriel (1856-1932)"],
+            "authors": [
+                "Charles H. Gabriel (1856-1932)"
+            ],
             "versicle": "Isaías 60:1-3",
             "strophes": [
                 {
@@ -8369,7 +8684,9 @@
             "number": 313,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["James McGranaham (1840-1907)"],
+            "authors": [
+                "James McGranaham (1840-1907)"
+            ],
             "versicle": "Mateus 28:18-20",
             "strophes": [
                 {
@@ -8490,7 +8807,9 @@
             "number": 317,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Elisha A. Hoffman (1839-1929)"],
+            "authors": [
+                "Elisha A. Hoffman (1839-1929)"
+            ],
             "versicle": "Apocalipse 8:3",
             "strophes": [
                 {
@@ -8599,7 +8918,9 @@
             "number": 321,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Baynard L. Fox (1932-1982)"],
+            "authors": [
+                "Baynard L. Fox (1932-1982)"
+            ],
             "versicle": "Mates 10:32",
             "strophes": [
                 {
@@ -8675,7 +8996,9 @@
             "number": 324,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Williams S. C. Jr. (1951)"],
+            "authors": [
+                "Williams S. C. Jr. (1951)"
+            ],
             "versicle": "Mateus 20:27-28",
             "strophes": [
                 {
@@ -8701,7 +9024,9 @@
             "number": 325,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Samuel W. Martin (1839- ?)"],
+            "authors": [
+                "Samuel W. Martin (1839- ?)"
+            ],
             "versicle": "Isaías 40:9",
             "strophes": [
                 {
@@ -8727,7 +9052,9 @@
             "number": 326,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Harper G. Smyth (1873-1945)"],
+            "authors": [
+                "Harper G. Smyth (1873-1945)"
+            ],
             "versicle": "Atos 9:15",
             "strophes": [
                 {
@@ -8757,7 +9084,9 @@
             "number": 327,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["H. E. Nichol (1862-1926)"],
+            "authors": [
+                "H. E. Nichol (1862-1926)"
+            ],
             "versicle": "Mateus 28.18-20",
             "strophes": [
                 {
@@ -8845,7 +9174,10 @@
             "number": 330,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Pedro Grado", "Isaia Baltzell (1832-1893)"],
+            "authors": [
+                "Pedro Grado",
+                "Isaia Baltzell (1832-1893)"
+            ],
             "versicle": "João 9:4",
             "strophes": [
                 {
@@ -8897,7 +9229,9 @@
             "number": 332,
             "section": "Vida Cristã",
             "category": "Serviço Cristão",
-            "authors": ["Franck C. Huston (1871-1959)"],
+            "authors": [
+                "Franck C. Huston (1871-1959)"
+            ],
             "versicle": "Mateus 19:27-29",
             "strophes": [
                 {
@@ -8981,7 +9315,9 @@
             "number": 335,
             "section": "Vida Cristã",
             "category": "Peregrinação",
-            "authors": ["Melodia Tradicional Americana"],
+            "authors": [
+                "Melodia Tradicional Americana"
+            ],
             "versicle": "Hebreus 11:13-16",
             "strophes": [
                 {
@@ -9098,7 +9434,9 @@
             "number": 339,
             "section": "Vida Cristã",
             "category": "Peregrinação",
-            "authors": ["George F. Root (1820-1895)"],
+            "authors": [
+                "George F. Root (1820-1895)"
+            ],
             "versicle": "Deuteronômio 31:6-8",
             "strophes": [
                 {
@@ -9207,7 +9545,9 @@
             "number": 343,
             "section": "Vida Cristã",
             "category": "Luta",
-            "authors": ["William F. Sherwin (1826-1888)"],
+            "authors": [
+                "William F. Sherwin (1826-1888)"
+            ],
             "versicle": "Salmo 144:1 e 2",
             "strophes": [
                 {
@@ -9444,7 +9784,9 @@
             "number": 351,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Ludie C. Day Pickett (1867-1953)"],
+            "authors": [
+                "Ludie C. Day Pickett (1867-1953)"
+            ],
             "versicle": "Isaías 41:13 e 14 ",
             "strophes": [
                 {
@@ -9524,7 +9866,9 @@
             "number": 354,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Frederico G. Jr (1925)"],
+            "authors": [
+                "Frederico G. Jr (1925)"
+            ],
             "versicle": "Salmo 55:22",
             "strophes": [
                 {
@@ -9546,7 +9890,9 @@
             "number": 355,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Emily D. Wilson (1865-1942)"],
+            "authors": [
+                "Emily D. Wilson (1865-1942)"
+            ],
             "versicle": "Isaías 41:10",
             "strophes": [
                 {
@@ -9676,7 +10022,9 @@
             "number": 360,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Helen H. Lemmel (1864-1961)"],
+            "authors": [
+                "Helen H. Lemmel (1864-1961)"
+            ],
             "versicle": "Salmo 42:11",
             "strophes": [
                 {
@@ -9760,7 +10108,9 @@
             "number": 363,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["C. Austin Miles (1868-1946)"],
+            "authors": [
+                "C. Austin Miles (1868-1946)"
+            ],
             "versicle": "Isaías 62:4 e 5",
             "strophes": [
                 {
@@ -9790,7 +10140,9 @@
             "number": 364,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Charles H. Barker"],
+            "authors": [
+                "Charles H. Barker"
+            ],
             "versicle": "João 8:12",
             "strophes": [
                 {
@@ -9816,7 +10168,9 @@
             "number": 365,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Melodia Tradicional Alemã"],
+            "authors": [
+                "Melodia Tradicional Alemã"
+            ],
             "versicle": "Mateus 6:26 e 29",
             "strophes": [
                 {
@@ -9838,7 +10192,9 @@
             "number": 366,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Salmo 34:7",
             "strophes": [
                 {
@@ -9864,7 +10220,9 @@
             "number": 367,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Donald J. Wyrtzen (1942)"],
+            "authors": [
+                "Donald J. Wyrtzen (1942)"
+            ],
             "versicle": "isaías 43:1 e 2",
             "strophes": [
                 {
@@ -9882,7 +10240,9 @@
             "number": 368,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Alfred H. Ackley (1887-1960)"],
+            "authors": [
+                "Alfred H. Ackley (1887-1960)"
+            ],
             "versicle": "I Pedro 5:7",
             "strophes": [
                 {
@@ -9995,7 +10355,10 @@
             "number": 372,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["C. C. Luther", "George C. Stebbins (1846-1945)"],
+            "authors": [
+                "C. C. Luther",
+                "George C. Stebbins (1846-1945)"
+            ],
             "versicle": "Jeremias 10:23",
             "strophes": [
                 {
@@ -10083,7 +10446,10 @@
             "number": 375,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Jessie B. Pounds (1861-1921)", "Henry P. Morton"],
+            "authors": [
+                "Jessie B. Pounds (1861-1921)",
+                "Henry P. Morton"
+            ],
             "versicle": "Isaías 41:13 e 14",
             "strophes": [
                 {
@@ -10113,7 +10479,9 @@
             "number": 376,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Franck M. Davis (1839-1896)"],
+            "authors": [
+                "Franck M. Davis (1839-1896)"
+            ],
             "versicle": "Salmo 48:14",
             "strophes": [
                 {
@@ -10467,7 +10835,10 @@
             "number": 388,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Mary A. Bachelor", "Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Mary A. Bachelor",
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "Mateus 11:28-30",
             "strophes": [
                 {
@@ -10522,7 +10893,9 @@
             "number": 390,
             "section": "Vida Cristã",
             "category": "Consolo e Segurança",
-            "authors": ["Herbert Work (1904-1982)"],
+            "authors": [
+                "Herbert Work (1904-1982)"
+            ],
             "versicle": "Isaías 45:22",
             "strophes": [
                 {
@@ -10548,7 +10921,9 @@
             "number": 391,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Johann W. Goethe (1749-1832)"],
+            "authors": [
+                "Johann W. Goethe (1749-1832)"
+            ],
             "versicle": "Salmo 51:10",
             "strophes": [
                 {
@@ -10570,7 +10945,9 @@
             "number": 392,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Lelia N. Morris (1862-1929)"],
+            "authors": [
+                "Lelia N. Morris (1862-1929)"
+            ],
             "versicle": "João 15:9",
             "strophes": [
                 {
@@ -10592,7 +10969,9 @@
             "number": 393,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Isaías 44:3 e 4",
             "strophes": [
                 {
@@ -10833,7 +11212,9 @@
             "number": 401,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Clara H. Scott (1841-1897)"],
+            "authors": [
+                "Clara H. Scott (1841-1897)"
+            ],
             "versicle": "Mateus 20:29-34",
             "strophes": [
                 {
@@ -10855,7 +11236,9 @@
             "number": 402,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Leander L. Pickett (1859-1928)"],
+            "authors": [
+                "Leander L. Pickett (1859-1928)"
+            ],
             "versicle": "I Samuel 3:9 e 10",
             "strophes": [
                 {
@@ -10997,7 +11380,9 @@
             "number": 407,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Negro Spiritual"],
+            "authors": [
+                "Negro Spiritual"
+            ],
             "versicle": "Salmo 40:17",
             "strophes": [
                 {
@@ -11023,7 +11408,9 @@
             "number": 408,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Will L. Thompson (1847-1909)"],
+            "authors": [
+                "Will L. Thompson (1847-1909)"
+            ],
             "versicle": "João 14:27",
             "strophes": [
                 {
@@ -11045,7 +11432,10 @@
             "number": 409,
             "section": "Vida Cristã",
             "category": "Petição",
-            "authors": ["Ida A. Guirey", "Charles H. Gabriel (1856-1932)"],
+            "authors": [
+                "Ida A. Guirey",
+                "Charles H. Gabriel (1856-1932)"
+            ],
             "versicle": "Cantares 2:1",
             "strophes": [
                 {
@@ -11154,7 +11544,9 @@
             "number": 413,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["Ralph R. Carmichael (1927)"],
+            "authors": [
+                "Ralph R. Carmichael (1927)"
+            ],
             "versicle": "Marcos 6:31",
             "strophes": [
                 {
@@ -11197,7 +11589,9 @@
             "number": 415,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["Freda H. Allen"],
+            "authors": [
+                "Freda H. Allen"
+            ],
             "versicle": "Gênesis 32:24-28",
             "strophes": [
                 {
@@ -11244,7 +11638,9 @@
             "number": 417,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["I. B. Sergei, 1935"],
+            "authors": [
+                "I. B. Sergei, 1935"
+            ],
             "versicle": "Gênesis 5:24",
             "strophes": [
                 {
@@ -11345,7 +11741,9 @@
             "number": 421,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["Septimus Winner (1827-1902)"],
+            "authors": [
+                "Septimus Winner (1827-1902)"
+            ],
             "versicle": "Apocalipse 3:20",
             "strophes": [
                 {
@@ -11371,7 +11769,9 @@
             "number": 422,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["Asa Hull (1928-?)"],
+            "authors": [
+                "Asa Hull (1928-?)"
+            ],
             "versicle": "Lucas 10:38 e 39",
             "strophes": [
                 {
@@ -11418,7 +11818,10 @@
             "number": 424,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["John R. Clements", "Bentley D. Ackley (1872-1958)"],
+            "authors": [
+                "John R. Clements",
+                "Bentley D. Ackley (1872-1958)"
+            ],
             "versicle": "I Reis 19:11-13",
             "strophes": [
                 {
@@ -11440,7 +11843,9 @@
             "number": 425,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["Mosie Lister (1921)"],
+            "authors": [
+                "Mosie Lister (1921)"
+            ],
             "versicle": "Mateus 26:40",
             "strophes": [
                 {
@@ -11458,7 +11863,9 @@
             "number": 426,
             "section": "Vida Cristã",
             "category": "Oração e Comunhão",
-            "authors": ["C. Austin Miles (1868-1946)"],
+            "authors": [
+                "C. Austin Miles (1868-1946)"
+            ],
             "versicle": "João 20:1, 11-18",
             "strophes": [
                 {
@@ -11513,7 +11920,9 @@
             "number": 428,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["Charles H. Gabriel (1856-1932)"],
+            "authors": [
+                "Charles H. Gabriel (1856-1932)"
+            ],
             "versicle": "Mateus 25:34",
             "strophes": [
                 {
@@ -11539,7 +11948,9 @@
             "number": 429,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["Hebert Johnson (1857-1904)"],
+            "authors": [
+                "Hebert Johnson (1857-1904)"
+            ],
             "versicle": "Jó 19:25-27",
             "strophes": [
                 {
@@ -11561,7 +11972,9 @@
             "number": 430,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["Eliza E. Hewitt (1851-1920)"],
+            "authors": [
+                "Eliza E. Hewitt (1851-1920)"
+            ],
             "versicle": "Hebreus 10:35-37",
             "strophes": [
                 {
@@ -11587,7 +12000,9 @@
             "number": 431,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Isaías 65:17-19",
             "strophes": [
                 {
@@ -11671,7 +12086,9 @@
             "number": 434,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["James M. Black (1856-1938)"],
+            "authors": [
+                "James M. Black (1856-1938)"
+            ],
             "versicle": "Mateus 25:31-34",
             "strophes": [
                 {
@@ -11759,7 +12176,9 @@
             "number": 437,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["Eugene M. Barlett (1885-1941)"],
+            "authors": [
+                "Eugene M. Barlett (1885-1941)"
+            ],
             "versicle": "I Coríntios 15:57",
             "strophes": [
                 {
@@ -11814,7 +12233,9 @@
             "number": 439,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["John W. Peterson (1921-2006)"],
+            "authors": [
+                "John W. Peterson (1921-2006)"
+            ],
             "versicle": "Isaías 25:9",
             "strophes": [
                 {
@@ -11840,7 +12261,10 @@
             "number": 440,
             "section": "Vida Cristã",
             "category": "Vitória e Recompensa",
-            "authors": ["C. P. Whitford", "John R. Sweney (1837-1889)"],
+            "authors": [
+                "C. P. Whitford",
+                "John R. Sweney (1837-1889)"
+            ],
             "versicle": "Isaías 65:17-19",
             "strophes": [
                 {
@@ -12094,7 +12518,10 @@
             "number": 449,
             "section": "Lar Cristão",
             "category": "Casamento",
-            "authors": ["Dario P. Araújo (1937)", "Joseph Barnby (1838-1896)"],
+            "authors": [
+                "Dario P. Araújo (1937)",
+                "Joseph Barnby (1838-1896)"
+            ],
             "versicle": "Efésios 5:31",
             "strophes": [
                 {
@@ -12116,7 +12543,10 @@
             "number": 450,
             "section": "Lar Cristão",
             "category": "Lar",
-            "authors": ["Helen Taylor (1876-1943)", "May H. Brahe (? -1956)"],
+            "authors": [
+                "Helen Taylor (1876-1943)",
+                "May H. Brahe (? -1956)"
+            ],
             "versicle": "Salmo 127",
             "strophes": [
                 {
@@ -12138,7 +12568,9 @@
             "number": 451,
             "section": "Lar Cristão",
             "category": "Lar",
-            "authors": ["Jonas M. de Souza (1916-2004)"],
+            "authors": [
+                "Jonas M. de Souza (1916-2004)"
+            ],
             "versicle": "II Timóteo 3:14 e 15",
             "strophes": [
                 {
@@ -12164,7 +12596,10 @@
             "number": 452,
             "section": "Lar Cristão",
             "category": "Lar",
-            "authors": ["E. M. Herndon e", "Peter P. Bilhorn (1865-1936)"],
+            "authors": [
+                "E. M. Herndon e",
+                "Peter P. Bilhorn (1865-1936)"
+            ],
             "versicle": "II Timóteo 3:14 e 15",
             "strophes": [
                 {
@@ -12194,7 +12629,9 @@
             "number": 453,
             "section": "Lar Cristão",
             "category": "Lar",
-            "authors": ["James H. McNaughton (1829-1891)"],
+            "authors": [
+                "James H. McNaughton (1829-1891)"
+            ],
             "versicle": "Efésios 5:25",
             "strophes": [
                 {
@@ -12245,7 +12682,10 @@
             "number": 455,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["Valdecir S. Lima (1953)", "Flávio A. Santos (1963)"],
+            "authors": [
+                "Valdecir S. Lima (1953)",
+                "Flávio A. Santos (1963)"
+            ],
             "versicle": "Lucas 2:22",
             "strophes": [
                 {
@@ -12263,7 +12703,10 @@
             "number": 456,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["Wilhelm Hey (1798-1854)", "Melodia Tradicional Alemã"],
+            "authors": [
+                "Wilhelm Hey (1798-1854)",
+                "Melodia Tradicional Alemã"
+            ],
             "versicle": "Isaías 40:26",
             "strophes": [
                 {
@@ -12318,7 +12761,9 @@
             "number": 458,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["George F. Root (1820-1895)"],
+            "authors": [
+                "George F. Root (1820-1895)"
+            ],
             "versicle": "Mateus 19:13-15",
             "strophes": [
                 {
@@ -12344,7 +12789,10 @@
             "number": 459,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["Clare H. Woolston", "George F. Root (1820-1895)"],
+            "authors": [
+                "Clare H. Woolston",
+                "George F. Root (1820-1895)"
+            ],
             "versicle": "Marcos 10:13-16",
             "strophes": [
                 {
@@ -12370,7 +12818,9 @@
             "number": 460,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "João 15:9",
             "strophes": [
                 {
@@ -12458,7 +12908,10 @@
             "number": 463,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["Nellie Taibot", "Edwin O. Excell (1851-1921)"],
+            "authors": [
+                "Nellie Taibot",
+                "Edwin O. Excell (1851-1921)"
+            ],
             "versicle": "Mateus 5:16",
             "strophes": [
                 {
@@ -12488,7 +12941,10 @@
             "number": 464,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["W. Johns", "Tasso Corben"],
+            "authors": [
+                "W. Johns",
+                "Tasso Corben"
+            ],
             "versicle": "Mateus 20:27 e 28",
             "strophes": [
                 {
@@ -12547,7 +13003,9 @@
             "number": 466,
             "section": "Lar Cristão",
             "category": "Crianças",
-            "authors": ["Carey Bonner (1859-1838)"],
+            "authors": [
+                "Carey Bonner (1859-1838)"
+            ],
             "versicle": "Salmo 10:14",
             "strophes": [
                 {
@@ -12627,7 +13085,9 @@
             "number": 469,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Wayne Hooper (1920-2007)"],
+            "authors": [
+                "Wayne Hooper (1920-2007)"
+            ],
             "versicle": "Tito 2:13",
             "strophes": [
                 {
@@ -12641,7 +13101,9 @@
             "number": 470,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Silmar Correia (1967)"],
+            "authors": [
+                "Silmar Correia (1967)"
+            ],
             "versicle": "Habacuque 2:20",
             "strophes": [
                 {
@@ -12663,7 +13125,10 @@
             "number": 471,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Valdecir S. Lima (1953)", "Lineu F. Soares (1965)"],
+            "authors": [
+                "Valdecir S. Lima (1953)",
+                "Lineu F. Soares (1965)"
+            ],
             "versicle": "Salmo 40:1-4",
             "strophes": [
                 {
@@ -12718,7 +13183,9 @@
             "number": 473,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Benjamim Baur (1897-1972)"],
+            "authors": [
+                "Benjamim Baur (1897-1972)"
+            ],
             "versicle": "Isaías 9:6",
             "strophes": [
                 {
@@ -12740,7 +13207,9 @@
             "number": 474,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Melodia Tradicional Indiana"],
+            "authors": [
+                "Melodia Tradicional Indiana"
+            ],
             "versicle": "Mateus 9:9",
             "strophes": [
                 {
@@ -12766,7 +13235,9 @@
             "number": 475,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Jael E. Araujo (1954)"],
+            "authors": [
+                "Jael E. Araujo (1954)"
+            ],
             "versicle": "II Coríntios 4:6",
             "strophes": [
                 {
@@ -12784,7 +13255,9 @@
             "number": 476,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Kurt F. Kaiser (1934)"],
+            "authors": [
+                "Kurt F. Kaiser (1934)"
+            ],
             "versicle": "João 1:41",
             "strophes": [
                 {
@@ -12810,7 +13283,10 @@
             "number": 477,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Edson R. Marques (1953)", "Lineu F. Soares (1956)"],
+            "authors": [
+                "Edson R. Marques (1953)",
+                "Lineu F. Soares (1956)"
+            ],
             "versicle": "Salmo 89:1",
             "strophes": [
                 {
@@ -12832,7 +13308,9 @@
             "number": 478,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Williams S. Costa Jr. (1951)"],
+            "authors": [
+                "Williams S. Costa Jr. (1951)"
+            ],
             "versicle": "João 14:6",
             "strophes": [
                 {
@@ -12854,7 +13332,10 @@
             "number": 479,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Elias R. Azevedo (1933)", "Leni Azevedo (1940)"],
+            "authors": [
+                "Elias R. Azevedo (1933)",
+                "Leni Azevedo (1940)"
+            ],
             "versicle": "Salmo 116:1 e 2",
             "strophes": [
                 {
@@ -12880,7 +13361,9 @@
             "number": 480,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Diane Ball (1941)"],
+            "authors": [
+                "Diane Ball (1941)"
+            ],
             "versicle": "Isaías 41:13",
             "strophes": [
                 {
@@ -12898,7 +13381,9 @@
             "number": 481,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Ênio M. de Sousa (1944)"],
+            "authors": [
+                "Ênio M. de Sousa (1944)"
+            ],
             "versicle": "Salmo 17:5",
             "strophes": [
                 {
@@ -12934,7 +13419,9 @@
             "number": 483,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["William A. Ogden (1841-1897)"],
+            "authors": [
+                "William A. Ogden (1841-1897)"
+            ],
             "versicle": "I Timóteo 4:12",
             "strophes": [
                 {
@@ -12960,7 +13447,9 @@
             "number": 484,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "Daniel 1:8 e 9",
             "strophes": [
                 {
@@ -12990,7 +13479,9 @@
             "number": 485,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "I João 2:14",
             "strophes": [
                 {
@@ -13016,7 +13507,10 @@
             "number": 486,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Edson R. Marques (1953)", "Lineu F. Soares (1965)"],
+            "authors": [
+                "Edson R. Marques (1953)",
+                "Lineu F. Soares (1965)"
+            ],
             "versicle": "Mateus 5:13",
             "strophes": [
                 {
@@ -13038,7 +13532,10 @@
             "number": 487,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["E. M. S", "Ênio M. de Sousa (1944)"],
+            "authors": [
+                "E. M. S",
+                "Ênio M. de Sousa (1944)"
+            ],
             "versicle": "Mateus 4:18-20",
             "strophes": [
                 {
@@ -13060,7 +13557,9 @@
             "number": 488,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["John W. Peterson (1921-2006)"],
+            "authors": [
+                "John W. Peterson (1921-2006)"
+            ],
             "versicle": "Salmo 40:1-3",
             "strophes": [
                 {
@@ -13090,7 +13589,9 @@
             "number": 489,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Williams S. C. Jr. (1951)"],
+            "authors": [
+                "Williams S. C. Jr. (1951)"
+            ],
             "versicle": "Isaías 35:10",
             "strophes": [
                 {
@@ -13141,7 +13642,9 @@
             "number": 491,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Alfred B. Smith (1916-2001)"],
+            "authors": [
+                "Alfred B. Smith (1916-2001)"
+            ],
             "versicle": "João 14:1-3",
             "strophes": [
                 {
@@ -13159,7 +13662,9 @@
             "number": 492,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Jeff Wood"],
+            "authors": [
+                "Jeff Wood"
+            ],
             "versicle": "João 13:34 e 35",
             "strophes": [
                 {
@@ -13185,7 +13690,9 @@
             "number": 493,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Mosie Lister (1921)"],
+            "authors": [
+                "Mosie Lister (1921)"
+            ],
             "versicle": "Salmo 40:1-3",
             "strophes": [
                 {
@@ -13236,7 +13743,10 @@
             "number": 495,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Sy Miller (1908-1971)", "Jill Jackson (1913-1995)"],
+            "authors": [
+                "Sy Miller (1908-1971)",
+                "Jill Jackson (1913-1995)"
+            ],
             "versicle": "Salmo 122:6-8",
             "strophes": [
                 {
@@ -13250,7 +13760,9 @@
             "number": 496,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["John Wimber (1934-1997)"],
+            "authors": [
+                "John Wimber (1934-1997)"
+            ],
             "versicle": "João 14:27",
             "strophes": [
                 {
@@ -13272,7 +13784,9 @@
             "number": 497,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Ariney B. de Oliveira (1964)"],
+            "authors": [
+                "Ariney B. de Oliveira (1964)"
+            ],
             "versicle": "Salmo 115: 17 e 18",
             "strophes": [
                 {
@@ -13294,7 +13808,9 @@
             "number": 498,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Eugene L. Clark (1925-1982)"],
+            "authors": [
+                "Eugene L. Clark (1925-1982)"
+            ],
             "versicle": "Marcos 10:27",
             "strophes": [
                 {
@@ -13316,7 +13832,9 @@
             "number": 499,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Jader D. Santos (1962)"],
+            "authors": [
+                "Jader D. Santos (1962)"
+            ],
             "versicle": "Isaías 49:15",
             "strophes": [
                 {
@@ -13338,7 +13856,10 @@
             "number": 500,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Valdecir S. Lima (1953)", "Flávio A. Santos (1963)"],
+            "authors": [
+                "Valdecir S. Lima (1953)",
+                "Flávio A. Santos (1963)"
+            ],
             "versicle": "Êxodo 3:7,8 e 10",
             "strophes": [
                 {
@@ -13360,7 +13881,9 @@
             "number": 501,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Ira F. Stanphill (1914-1993)"],
+            "authors": [
+                "Ira F. Stanphill (1914-1993)"
+            ],
             "versicle": "Isaías 11:6-9",
             "strophes": [
                 {
@@ -13382,7 +13905,9 @@
             "number": 502,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["Nilton Tuller"],
+            "authors": [
+                "Nilton Tuller"
+            ],
             "versicle": "Jeremias 18:3-6",
             "strophes": [
                 {
@@ -13400,7 +13925,9 @@
             "number": 503,
             "section": "Lar Cristão",
             "category": "Jovens",
-            "authors": ["José G. da Lima (1950)"],
+            "authors": [
+                "José G. da Lima (1950)"
+            ],
             "versicle": "Gênesis 5: 24",
             "strophes": [
                 {
@@ -13451,7 +13978,9 @@
             "number": 505,
             "section": "Igreja e Doutrinas",
             "category": "Igreja",
-            "authors": ["Arnaldo B. Christianini (1911-1984)"],
+            "authors": [
+                "Arnaldo B. Christianini (1911-1984)"
+            ],
             "versicle": "Isaías 41:14",
             "strophes": [
                 {
@@ -13502,7 +14031,9 @@
             "number": 507,
             "section": "Igreja e Doutrinas",
             "category": "Igreja",
-            "authors": ["William S. Pitts (1830-1918)"],
+            "authors": [
+                "William S. Pitts (1830-1918)"
+            ],
             "versicle": "Salmo 122:1-4",
             "strophes": [
                 {
@@ -13528,7 +14059,9 @@
             "number": 508,
             "section": "Igreja e Doutrinas",
             "category": "Escola Sabatina",
-            "authors": ["William B. Bradbury (1816-1868)"],
+            "authors": [
+                "William B. Bradbury (1816-1868)"
+            ],
             "versicle": "II Timóteo 2:15",
             "strophes": [
                 {
@@ -13554,7 +14087,9 @@
             "number": 509,
             "section": "Igreja e Doutrinas",
             "category": "Escola Sabatina",
-            "authors": ["Jean J. Rousseau (1712-1778)"],
+            "authors": [
+                "Jean J. Rousseau (1712-1778)"
+            ],
             "versicle": "Salmo 25:4 e 5",
             "strophes": [
                 {
@@ -13667,7 +14202,9 @@
             "number": 513,
             "section": "Igreja e Doutrinas",
             "category": "Batismo",
-            "authors": ["Albertina R. Simon (1896-1984)"],
+            "authors": [
+                "Albertina R. Simon (1896-1984)"
+            ],
             "versicle": "Romanos 6:3 e 4",
             "strophes": [
                 {
@@ -13784,7 +14321,10 @@
             "number": 517,
             "section": "Igreja e Doutrinas",
             "category": "Batismo",
-            "authors": ["W. J. K", "William J. Kirkpatrick (1838-1921)"],
+            "authors": [
+                "W. J. K",
+                "William J. Kirkpatrick (1838-1921)"
+            ],
             "versicle": "Lucas 15:11-24",
             "strophes": [
                 {
@@ -13814,7 +14354,9 @@
             "number": 518,
             "section": "Igreja e Doutrinas",
             "category": "Batismo",
-            "authors": ["James L. Elginburg, 1886"],
+            "authors": [
+                "James L. Elginburg, 1886"
+            ],
             "versicle": "Mateus 16:24 e 25",
             "strophes": [
                 {
@@ -13873,7 +14415,9 @@
             "number": 520,
             "section": "Igreja e Doutrinas",
             "category": "Santa Ceia",
-            "authors": ["Philip P. Bliss (1838-1876)"],
+            "authors": [
+                "Philip P. Bliss (1838-1876)"
+            ],
             "versicle": "I Coríntios 11:23-26",
             "strophes": [
                 {
@@ -13895,7 +14439,9 @@
             "number": 521,
             "section": "Igreja e Doutrinas",
             "category": "Santa Ceia",
-            "authors": ["Samuel S. Wesley (1810-1876)"],
+            "authors": [
+                "Samuel S. Wesley (1810-1876)"
+            ],
             "versicle": "Mateus 26:26-28",
             "strophes": [
                 {
@@ -13917,7 +14463,9 @@
             "number": 522,
             "section": "Igreja e Doutrinas",
             "category": "Santa Ceia",
-            "authors": ["Negro Espiritual"],
+            "authors": [
+                "Negro Espiritual"
+            ],
             "versicle": "I Coríntios 11:23 e 24",
             "strophes": [
                 {
@@ -13993,7 +14541,9 @@
             "number": 525,
             "section": "Igreja e Doutrinas",
             "category": "Lei de Deus",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "I Samuel 15:22",
             "strophes": [
                 {
@@ -14019,7 +14569,9 @@
             "number": 526,
             "section": "Igreja e Doutrinas",
             "category": "Lei de Deus",
-            "authors": ["Lowell Mason (1792-1872)"],
+            "authors": [
+                "Lowell Mason (1792-1872)"
+            ],
             "versicle": "Salmo 19:7",
             "strophes": [
                 {
@@ -14037,7 +14589,9 @@
             "number": 527,
             "section": "Igreja e Doutrinas",
             "category": "Sábado",
-            "authors": ["William J. Kirkpatrick (1838-1921)"],
+            "authors": [
+                "William J. Kirkpatrick (1838-1921)"
+            ],
             "versicle": "Isaías 58:13 e 14",
             "strophes": [
                 {
@@ -14059,7 +14613,10 @@
             "number": 528,
             "section": "Igreja e Doutrinas",
             "category": "Sábado",
-            "authors": ["Eduard Eyth (1809-1884)", "U. B. Oyen"],
+            "authors": [
+                "Eduard Eyth (1809-1884)",
+                "U. B. Oyen"
+            ],
             "versicle": "Gênesis 2:2 e 3",
             "strophes": [
                 {
@@ -14081,7 +14638,10 @@
             "number": 529,
             "section": "Igreja e Doutrinas",
             "category": "Sábado",
-            "authors": ["John Newton (1725-1807)", "Lowell Mason (1792-1872)"],
+            "authors": [
+                "John Newton (1725-1807)",
+                "Lowell Mason (1792-1872)"
+            ],
             "versicle": "Salmo 100",
             "strophes": [
                 {
@@ -14128,7 +14688,9 @@
             "number": 531,
             "section": "Igreja e Doutrinas",
             "category": "Sábado",
-            "authors": ["Douglas A. R.Aufranc (1892-1980)"],
+            "authors": [
+                "Douglas A. R.Aufranc (1892-1980)"
+            ],
             "versicle": "Marcos 2:27 e 28",
             "strophes": [
                 {
@@ -14179,7 +14741,9 @@
             "number": 533,
             "section": "Igreja e Doutrinas",
             "category": "Justificação",
-            "authors": ["John H. Stockton (1813-1877)"],
+            "authors": [
+                "John H. Stockton (1813-1877)"
+            ],
             "versicle": "Efésios 2:8",
             "strophes": [
                 {
@@ -14267,7 +14831,9 @@
             "number": 536,
             "section": "Igreja e Doutrinas",
             "category": "Justificação",
-            "authors": ["William McComb (1738-1870)"],
+            "authors": [
+                "William McComb (1738-1870)"
+            ],
             "versicle": "I Timóteo 1:15",
             "strophes": [
                 {
@@ -14351,7 +14917,9 @@
             "number": 539,
             "section": "Igreja e Doutrinas",
             "category": "Justificação",
-            "authors": ["Harold Graham e Wayne H. (1920-2007)"],
+            "authors": [
+                "Harold Graham e Wayne H. (1920-2007)"
+            ],
             "versicle": "Romanos 5:1 e 2",
             "strophes": [
                 {
@@ -14487,7 +15055,9 @@
             "number": 544,
             "section": "Igreja e Doutrinas",
             "category": "Juízo Final",
-            "authors": ["Franklin E. Belden (1858-1945)"],
+            "authors": [
+                "Franklin E. Belden (1858-1945)"
+            ],
             "versicle": "Daniel 7: 9 e 10",
             "strophes": [
                 {
@@ -14513,7 +15083,9 @@
             "number": 545,
             "section": "Igreja e Doutrinas",
             "category": "Juízo Final",
-            "authors": ["Will L. Thompson (1847-1909)"],
+            "authors": [
+                "Will L. Thompson (1847-1909)"
+            ],
             "versicle": "Sofonias 1:14",
             "strophes": [
                 {
@@ -14539,7 +15111,10 @@
             "number": 546,
             "section": "Igreja e Doutrinas",
             "category": "Juízo Final",
-            "authors": ["Lizzie DeArmond (1847-1936)", "Kem G. Bottorf"],
+            "authors": [
+                "Lizzie DeArmond (1847-1936)",
+                "Kem G. Bottorf"
+            ],
             "versicle": "Apocalipse 20:11 e 12",
             "strophes": [
                 {
@@ -14641,7 +15216,10 @@
             "number": 550,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Isaac Watts (1674-1748)", "Robert Lowry (1826-1889)"],
+            "authors": [
+                "Isaac Watts (1674-1748)",
+                "Robert Lowry (1826-1889)"
+            ],
             "versicle": "Isaías 35:10",
             "strophes": [
                 {
@@ -14667,7 +15245,9 @@
             "number": 551,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Emiliano Ponce"],
+            "authors": [
+                "Emiliano Ponce"
+            ],
             "versicle": "I Coríntios 2:9",
             "strophes": [
                 {
@@ -14718,7 +15298,9 @@
             "number": 553,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Robert Lowry (1826-1899)"],
+            "authors": [
+                "Robert Lowry (1826-1899)"
+            ],
             "versicle": "Apocalipse 22:1",
             "strophes": [
                 {
@@ -14744,7 +15326,9 @@
             "number": 554,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Lewis E. Jones (1865-1936)"],
+            "authors": [
+                "Lewis E. Jones (1865-1936)"
+            ],
             "versicle": "Mateus 25:31 e 34",
             "strophes": [
                 {
@@ -14774,7 +15358,9 @@
             "number": 555,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Stuart Hambien (1908-1989)"],
+            "authors": [
+                "Stuart Hambien (1908-1989)"
+            ],
             "versicle": "Apocalipse 21:1-4",
             "strophes": [
                 {
@@ -14850,7 +15436,9 @@
             "number": 558,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["N. B. Vandall (1896-1970)"],
+            "authors": [
+                "N. B. Vandall (1896-1970)"
+            ],
             "versicle": "João 14:1-3",
             "strophes": [
                 {
@@ -14876,7 +15464,9 @@
             "number": 559,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Elton M. Roth (1891-1951)"],
+            "authors": [
+                "Elton M. Roth (1891-1951)"
+            ],
             "versicle": "Isaías 25:9",
             "strophes": [
                 {
@@ -14957,7 +15547,9 @@
             "number": 562,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Henry de Fluiter (1872-1970)"],
+            "authors": [
+                "Henry de Fluiter (1872-1970)"
+            ],
             "versicle": "João 14:1-3",
             "strophes": [
                 {
@@ -15041,7 +15633,10 @@
             "number": 565,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Isaac Watts (1674-1748)", "TIMBREL OF ZION, 1853"],
+            "authors": [
+                "Isaac Watts (1674-1748)",
+                "TIMBREL OF ZION, 1853"
+            ],
             "versicle": "Apocalipse 21:3 e 4",
             "strophes": [
                 {
@@ -15096,7 +15691,10 @@
             "number": 567,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["E. C. Baird (1872-1961)", "J. C. Blaker"],
+            "authors": [
+                "E. C. Baird (1872-1961)",
+                "J. C. Blaker"
+            ],
             "versicle": "Apocalipse 22:1-5",
             "strophes": [
                 {
@@ -15180,7 +15778,9 @@
             "number": 570,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Jader D. Santos (1962)"],
+            "authors": [
+                "Jader D. Santos (1962)"
+            ],
             "versicle": "Salmo 46:4 e 5",
             "strophes": [
                 {
@@ -15202,7 +15802,9 @@
             "number": 571,
             "section": "Igreja e Doutrinas",
             "category": "Nova Terra",
-            "authors": ["Melodia Tradiciona Irlandesa"],
+            "authors": [
+                "Melodia Tradiciona Irlandesa"
+            ],
             "versicle": "Isaías 65:17-19",
             "strophes": [
                 {
@@ -15245,7 +15847,9 @@
             "number": 573,
             "section": "Cânticos Responsivos",
             "category": "Entrada à Plataforma",
-            "authors": ["George F. Root (1820-1895)"],
+            "authors": [
+                "George F. Root (1820-1895)"
+            ],
             "versicle": "Habacuque 2:20",
             "strophes": [
                 {
@@ -15322,7 +15926,9 @@
             "number": 577,
             "section": "Cânticos Responsivos",
             "category": "Entrada à Plataforma",
-            "authors": ["Franz P. Schbert (1797-1828)"],
+            "authors": [
+                "Franz P. Schbert (1797-1828)"
+            ],
             "versicle": "Salmo 145:17",
             "strophes": [
                 {
@@ -15344,7 +15950,9 @@
             "number": 578,
             "section": "Cânticos Responsivos",
             "category": "Entrada à Plataforma",
-            "authors": ["Lanny Wolfe (1942)"],
+            "authors": [
+                "Lanny Wolfe (1942)"
+            ],
             "versicle": "Gênesis 28:16 e 17",
             "strophes": [
                 {
@@ -15358,7 +15966,9 @@
             "number": 579,
             "section": "Cânticos Responsivos",
             "category": "Entrada à Plataforma",
-            "authors": ["Laurie Klein (1950)"],
+            "authors": [
+                "Laurie Klein (1950)"
+            ],
             "versicle": "Salmo 116:1 e 2",
             "strophes": [
                 {
@@ -15372,7 +15982,9 @@
             "number": 580,
             "section": "Cânticos Responsivos",
             "category": "Entrada à Plataforma",
-            "authors": ["Ênio M. de Souza (1944)"],
+            "authors": [
+                "Ênio M. de Souza (1944)"
+            ],
             "versicle": "Salmo 46:11",
             "strophes": [
                 {
@@ -15470,7 +16082,9 @@
             "number": 585,
             "section": "Cânticos Responsivos",
             "category": "Doxologia",
-            "authors": ["Flávio A. Santos (1963)"],
+            "authors": [
+                "Flávio A. Santos (1963)"
+            ],
             "versicle": "Salmo 29:1 e 2",
             "strophes": [
                 {
@@ -15484,7 +16098,9 @@
             "number": 586,
             "section": "Cânticos Responsivos",
             "category": "Doxologia",
-            "authors": ["Najla D. Bechara (1935-)"],
+            "authors": [
+                "Najla D. Bechara (1935-)"
+            ],
             "versicle": "Salmo 136:1",
             "strophes": [
                 {
@@ -15498,7 +16114,10 @@
             "number": 587,
             "section": "Cânticos Responsivos",
             "category": "Doxologia",
-            "authors": ["J. O", "Jimmy Owwens (1930)"],
+            "authors": [
+                "J. O",
+                "Jimmy Owwens (1930)"
+            ],
             "versicle": "Salmo 95:6",
             "strophes": [
                 {
@@ -15549,7 +16168,10 @@
             "number": 589,
             "section": "Cânticos Responsivos",
             "category": "Ofertório",
-            "authors": ["Eben E. Rexford (1848-1916)", "Joseph Garrison"],
+            "authors": [
+                "Eben E. Rexford (1848-1916)",
+                "Joseph Garrison"
+            ],
             "versicle": "Provérbios 23:26",
             "strophes": [
                 {
@@ -15575,7 +16197,9 @@
             "number": 590,
             "section": "Cânticos Responsivos",
             "category": "Ofertório",
-            "authors": ["LeRoy E. Froom (1890-1974)"],
+            "authors": [
+                "LeRoy E. Froom (1890-1974)"
+            ],
             "versicle": "Salmo 96:7 e 8",
             "strophes": [
                 {
@@ -15589,7 +16213,10 @@
             "number": 591,
             "section": "Cânticos Responsivos",
             "category": "Ofertório",
-            "authors": ["Dario P. de Araújo (1937)", "CHURCH MUSIC, 1851"],
+            "authors": [
+                "Dario P. de Araújo (1937)",
+                "CHURCH MUSIC, 1851"
+            ],
             "versicle": "Malaquias 3:10",
             "strophes": [
                 {
@@ -15603,7 +16230,9 @@
             "number": 592,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["Felix Mendelssohn-Bartholdy (1809-1847)"],
+            "authors": [
+                "Felix Mendelssohn-Bartholdy (1809-1847)"
+            ],
             "versicle": "Salmo 143:1",
             "strophes": [
                 {
@@ -15617,7 +16246,9 @@
             "number": 593,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["Ralph R. Carmichael (1927)"],
+            "authors": [
+                "Ralph R. Carmichael (1927)"
+            ],
             "versicle": "Salmo 55:1",
             "strophes": [
                 {
@@ -15639,7 +16270,9 @@
             "number": 594,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["George Whelpton (1841-1930)"],
+            "authors": [
+                "George Whelpton (1841-1930)"
+            ],
             "versicle": "Salmo 55:1",
             "strophes": [
                 {
@@ -15653,7 +16286,9 @@
             "number": 595,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["Harry D. Clarke (1888-1957)"],
+            "authors": [
+                "Harry D. Clarke (1888-1957)"
+            ],
             "versicle": "Salmo 61:1 e 2",
             "strophes": [
                 {
@@ -15667,7 +16302,9 @@
             "number": 596,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["Daniel Iverson (1890- ?)"],
+            "authors": [
+                "Daniel Iverson (1890- ?)"
+            ],
             "versicle": "Salmo 71:3",
             "strophes": [
                 {
@@ -15681,7 +16318,10 @@
             "number": 597,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["Ademir Rodrigues (1954)", "Amauri Barboza (1962)"],
+            "authors": [
+                "Ademir Rodrigues (1954)",
+                "Amauri Barboza (1962)"
+            ],
             "versicle": "Salmo 51:10",
             "strophes": [
                 {
@@ -15695,7 +16335,9 @@
             "number": 598,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["Ariney B. de Oliveira (1964)"],
+            "authors": [
+                "Ariney B. de Oliveira (1964)"
+            ],
             "versicle": "Salmo 71:3",
             "strophes": [
                 {
@@ -15709,7 +16351,9 @@
             "number": 599,
             "section": "Cânticos Responsivos",
             "category": "Responsos",
-            "authors": ["Najla D. Bechara (1935-)"],
+            "authors": [
+                "Najla D. Bechara (1935-)"
+            ],
             "versicle": "Salmo 26:3",
             "strophes": [
                 {
@@ -15723,7 +16367,10 @@
             "number": 600,
             "section": "Cânticos Responsivos",
             "category": "Fim Culto",
-            "authors": ["SARUM PRIMER, 1558", "Lorayne Coombs (1919-1998)"],
+            "authors": [
+                "SARUM PRIMER, 1558",
+                "Lorayne Coombs (1919-1998)"
+            ],
             "versicle": "Salmo 121:7 e 8",
             "strophes": [
                 {
@@ -15754,7 +16401,9 @@
             "number": 602,
             "section": "Cânticos Responsivos",
             "category": "Fim Culto",
-            "authors": ["Thomas E. Fettke (1941)"],
+            "authors": [
+                "Thomas E. Fettke (1941)"
+            ],
             "versicle": "II Coríntios 13:13",
             "strophes": [
                 {
@@ -15818,7 +16467,9 @@
             "number": 605,
             "section": "Cânticos Responsivos",
             "category": "Fim Culto",
-            "authors": ["LeRoy E. Froom (1890-1974)"],
+            "authors": [
+                "LeRoy E. Froom (1890-1974)"
+            ],
             "versicle": "Hebreus 13:20 e 21",
             "strophes": [
                 {
@@ -15832,7 +16483,9 @@
             "number": 606,
             "section": "Cânticos Responsivos",
             "category": "Fim Culto",
-            "authors": ["Lawrence F. Taylor, 1932"],
+            "authors": [
+                "Lawrence F. Taylor, 1932"
+            ],
             "versicle": "Hebreus 4: 15 e 16",
             "strophes": [
                 {
@@ -15846,7 +16499,9 @@
             "number": 607,
             "section": "Cânticos Responsivos",
             "category": "Fim Culto",
-            "authors": ["Dalmer F. Freire (1953)"],
+            "authors": [
+                "Dalmer F. Freire (1953)"
+            ],
             "versicle": "Judas 24 e 25",
             "strophes": [
                 {
@@ -15864,7 +16519,9 @@
             "number": 608,
             "section": "Cânticos Responsivos",
             "category": "Fim Culto",
-            "authors": ["Peter C. Lutkin (1858-1931)"],
+            "authors": [
+                "Peter C. Lutkin (1858-1931)"
+            ],
             "versicle": "Números 6:24-26",
             "strophes": [
                 {
@@ -15878,7 +16535,9 @@
             "number": 609,
             "section": "Cânticos Responsivos",
             "category": "Fim Culto",
-            "authors": ["Albert H. Malotte (1895-1964)"],
+            "authors": [
+                "Albert H. Malotte (1895-1964)"
+            ],
             "versicle": "Mateus 6:9-13",
             "strophes": [
                 {
@@ -15908,15 +16567,24 @@
             "categories": [
                 {
                     "name": "Adoração e Louvor",
-                    "range": [1, 20]
+                    "range": [
+                        1,
+                        20
+                    ]
                 },
                 {
                     "name": "Culto Matutino",
-                    "range": [21, 26]
+                    "range": [
+                        21,
+                        26
+                    ]
                 },
                 {
                     "name": "Culto Vespertino",
-                    "range": [27, 30]
+                    "range": [
+                        27,
+                        30
+                    ]
                 }
             ]
         },
@@ -15925,7 +16593,10 @@
             "categories": [
                 {
                     "name": "Deus, o Pai",
-                    "range": [31, 40]
+                    "range": [
+                        31,
+                        40
+                    ]
                 }
             ]
         },
@@ -15934,27 +16605,45 @@
             "categories": [
                 {
                     "name": "Natal",
-                    "range": [41, 51]
+                    "range": [
+                        41,
+                        51
+                    ]
                 },
                 {
                     "name": "Vida e Ministério",
-                    "range": [52, 58]
+                    "range": [
+                        52,
+                        58
+                    ]
                 },
                 {
                     "name": "Sofrimento e Morte",
-                    "range": [59, 68]
+                    "range": [
+                        59,
+                        68
+                    ]
                 },
                 {
                     "name": "Ressurreição e Glorificação",
-                    "range": [69, 86]
+                    "range": [
+                        69,
+                        86
+                    ]
                 },
                 {
                     "name": "Pastor e Amigo",
-                    "range": [87, 125]
+                    "range": [
+                        87,
+                        125
+                    ]
                 },
                 {
                     "name": "Segunda Vinda",
-                    "range": [126, 153]
+                    "range": [
+                        126,
+                        153
+                    ]
                 }
             ]
         },
@@ -15963,7 +16652,10 @@
             "categories": [
                 {
                     "name": "Espirito Santo",
-                    "range": [154, 161]
+                    "range": [
+                        154,
+                        161
+                    ]
                 }
             ]
         },
@@ -15972,7 +16664,10 @@
             "categories": [
                 {
                     "name": "Santa Escritura",
-                    "range": [162, 166]
+                    "range": [
+                        162,
+                        166
+                    ]
                 }
             ]
         },
@@ -15981,11 +16676,17 @@
             "categories": [
                 {
                     "name": "Chamado",
-                    "range": [167, 187]
+                    "range": [
+                        167,
+                        187
+                    ]
                 },
                 {
                     "name": "Graça e Redenção",
-                    "range": [188, 215]
+                    "range": [
+                        188,
+                        215
+                    ]
                 }
             ]
         },
@@ -15994,47 +16695,80 @@
             "categories": [
                 {
                     "name": "Alegria e Paz",
-                    "range": [216, 239]
+                    "range": [
+                        216,
+                        239
+                    ]
                 },
                 {
                     "name": "Gratidão e Louvor",
-                    "range": [240, 250]
+                    "range": [
+                        240,
+                        250
+                    ]
                 },
                 {
                     "name": "Fé e Confiança",
-                    "range": [251, 275]
+                    "range": [
+                        251,
+                        275
+                    ]
                 },
                 {
                     "name": "Consagração e Lealdade",
-                    "range": [276, 305]
+                    "range": [
+                        276,
+                        305
+                    ]
                 },
                 {
                     "name": "Serviço Cristão",
-                    "range": [306, 333]
+                    "range": [
+                        306,
+                        333
+                    ]
                 },
                 {
                     "name": "Peregrinação",
-                    "range": [334, 341]
+                    "range": [
+                        334,
+                        341
+                    ]
                 },
                 {
                     "name": "Luta",
-                    "range": [342, 348]
+                    "range": [
+                        342,
+                        348
+                    ]
                 },
                 {
                     "name": "Consolo e Segurança",
-                    "range": [349, 390]
+                    "range": [
+                        349,
+                        390
+                    ]
                 },
                 {
                     "name": "Petição",
-                    "range": [391, 411]
+                    "range": [
+                        391,
+                        411
+                    ]
                 },
                 {
                     "name": "Oração e Comunhão",
-                    "range": [412, 427]
+                    "range": [
+                        412,
+                        427
+                    ]
                 },
                 {
                     "name": "Vitória e Recompensa",
-                    "range": [428, 446]
+                    "range": [
+                        428,
+                        446
+                    ]
                 }
             ]
         },
@@ -16043,19 +16777,31 @@
             "categories": [
                 {
                     "name": "Casamento",
-                    "range": [447, 449]
+                    "range": [
+                        447,
+                        449
+                    ]
                 },
                 {
                     "name": "Lar",
-                    "range": [450, 454]
+                    "range": [
+                        450,
+                        454
+                    ]
                 },
                 {
                     "name": "Crianças",
-                    "range": [455, 468]
+                    "range": [
+                        455,
+                        468
+                    ]
                 },
                 {
                     "name": "Jovens",
-                    "range": [469, 503]
+                    "range": [
+                        469,
+                        503
+                    ]
                 }
             ]
         },
@@ -16064,43 +16810,73 @@
             "categories": [
                 {
                     "name": "Igreja",
-                    "range": [504, 507]
+                    "range": [
+                        504,
+                        507
+                    ]
                 },
                 {
                     "name": "Escola Sabatina",
-                    "range": [508, 509]
+                    "range": [
+                        508,
+                        509
+                    ]
                 },
                 {
                     "name": "Batismo",
-                    "range": [510, 518]
+                    "range": [
+                        510,
+                        518
+                    ]
                 },
                 {
                     "name": "Santa Ceia",
-                    "range": [519, 522]
+                    "range": [
+                        519,
+                        522
+                    ]
                 },
                 {
                     "name": "Ordenação",
-                    "range": [523, 524]
+                    "range": [
+                        523,
+                        524
+                    ]
                 },
                 {
                     "name": "Lei de Deus",
-                    "range": [525, 526]
+                    "range": [
+                        525,
+                        526
+                    ]
                 },
                 {
                     "name": "Sábado",
-                    "range": [527, 532]
+                    "range": [
+                        527,
+                        532
+                    ]
                 },
                 {
                     "name": "Justificação",
-                    "range": [533, 542]
+                    "range": [
+                        533,
+                        542
+                    ]
                 },
                 {
                     "name": "Juízo Final",
-                    "range": [543, 546]
+                    "range": [
+                        543,
+                        546
+                    ]
                 },
                 {
                     "name": "Nova Terra",
-                    "range": [547, 572]
+                    "range": [
+                        547,
+                        572
+                    ]
                 }
             ]
         },
@@ -16109,23 +16885,38 @@
             "categories": [
                 {
                     "name": "Entrada à Plataforma",
-                    "range": [573, 580]
+                    "range": [
+                        573,
+                        580
+                    ]
                 },
                 {
                     "name": "Doxologia",
-                    "range": [581, 588]
+                    "range": [
+                        581,
+                        588
+                    ]
                 },
                 {
                     "name": "Ofertório",
-                    "range": [589, 591]
+                    "range": [
+                        589,
+                        591
+                    ]
                 },
                 {
                     "name": "Responsos",
-                    "range": [592, 599]
+                    "range": [
+                        592,
+                        599
+                    ]
                 },
                 {
                     "name": "Fim Culto",
-                    "range": [600, 609]
+                    "range": [
+                        600,
+                        609
+                    ]
                 }
             ]
         },
