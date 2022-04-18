@@ -7,3 +7,9 @@ window.Alpine = Alpine
 
 Alpine.plugin(persist)
 Alpine.start()
+
+window.addEventListener('offline', () => {
+    if (navigator.onLine === false) {
+        window.location.href = '/offline'
+    }
+})

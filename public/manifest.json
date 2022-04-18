@@ -1,13 +1,16 @@
 {
     "name": "Hinário Adventista",
-    "short_name": "Hinário Adventista",
+    "short_name": "HASD",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#f1f5f9",
     "theme_color": "#f1f5f9",
     "orientation": "portrait-primary",
     "description": "Hinário Adventista. Pesquise por hinos e louve ao Senhor.",
-    "categories": ["books", "church"],
+    "categories": [
+        "books",
+        "church"
+    ],
     "lang": "pt-BR",
     "icons": [
         {

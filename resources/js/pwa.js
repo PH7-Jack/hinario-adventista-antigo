@@ -1,5 +1,5 @@
+import { Workbox } from 'workbox-window'
+
 if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/serviceWorker.js')
-    })
+    new Workbox('/service-worker.js').register()
 }

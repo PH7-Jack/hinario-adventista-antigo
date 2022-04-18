@@ -1,15 +1,5 @@
+const { InjectManifest } = require('workbox-webpack-plugin')
 const mix = require('laravel-mix')
-
-/*
- |--------------------------------------------------------------------------
- | Mix Asset Management
- |--------------------------------------------------------------------------
- |
- | Mix provides a clean, fluent API for defining some Webpack build steps
- | for your Laravel applications. By default, we are compiling the CSS
- | file for the application as well as bundling up all the JS files.
- |
- */
 
 mix.js('resources/js/app.js', 'public/dist')
     .js('resources/js/pwa.js', 'public/dist')
@@ -19,7 +9,17 @@ mix.js('resources/js/app.js', 'public/dist')
     ])
 
 if (mix.inProduction()) {
-    mix.version()
+    mix.webpackConfig({
+        plugins: [
+            new InjectManifest({
+                swSrc: './resources/js/service-worker/index.js',
+                swDest: './service-worker.js',
+                modifyURLPrefix: {
+                    '//': '/', // fix for file url. Ref https://github.com/GoogleChrome/workbox/issues/1534
+                },
+            })
+        ],
+    }).version()
 }
 
 mix.disableSuccessNotifications()

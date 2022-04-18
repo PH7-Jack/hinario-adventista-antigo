@@ -22,6 +22,10 @@ module.exports = {
             },
             boxShadow: {
                 indigo: '0 4px 6px -1px rgba(129,140,248, 0.4), 0 2px 4px -1px rgba(129,140,248, 0.4)',
+            },
+            borderWidth: {
+                '3': '3px',
+                '6': '6px',
             }
         },
     },

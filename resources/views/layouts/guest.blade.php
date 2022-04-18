@@ -81,14 +81,12 @@
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
         <link rel="stylesheet" href="{{ asset(mix('dist/app.css')) }}">
+        <style>[x-cloak] { display: none !important; }</style>
         <livewire:styles />
 
         <wireui:scripts />
+        <script src="{{ asset(mix('dist/pwa.js')) }}" defer></script>
         <script src="{{ asset(mix('dist/app.js')) }}" defer></script>
-
-        <style>
-            [x-cloak] { display: none !important; }
-        </style>
     </head>
 
     <body class="font-sans text-gray-900 antialiased bg-slate-100">
@@ -97,6 +95,5 @@
         {{ $slot }}
 
         <livewire:scripts />
-        <script src="{{ asset(mix('dist/pwa.js')) }}" defer></script>
     </body>
 </html>

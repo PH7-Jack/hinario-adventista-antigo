@@ -7,20 +7,28 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production"
+        "production": "mix --production",
+        "generate-sw": "workbox injectManifest workbox-config.js"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.4.0",
-        "@tailwindcss/typography": "^0.5.0",
+        "@tailwindcss/typography": "^0.5.1",
         "alpinejs": "^3.8.1",
-        "axios": "^0.24.0",
-        "laravel-mix": "^6.0.39",
+        "axios": "^0.25.0",
+        "laravel-mix": "^6.0.41",
         "lodash": "^4.17.19",
         "postcss": "^8.4.5",
         "postcss-import": "^14.0.1",
-        "tailwindcss": "^3.0.15"
+        "tailwindcss": "^3.0.18"
     },
     "dependencies": {
-        "@alpinejs/persist": "^3.8.1"
+        "@alpinejs/persist": "^3.8.1",
+        "workbox-cacheable-response": "^6.4.2",
+        "workbox-expiration": "^6.4.2",
+        "workbox-precaching": "^6.4.2",
+        "workbox-routing": "^6.4.2",
+        "workbox-strategies": "^6.4.2",
+        "workbox-webpack-plugin": "^6.4.2",
+        "workbox-window": "^6.4.2"
     }
 }
