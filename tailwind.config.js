@@ -1,14 +1,17 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
+/** @type {import('tailwindcss').Config} */
 module.exports = {
     presets: [
         require('./vendor/wireui/wireui/tailwind.config.js')
     ],
     content: [
+        './app/Http/Livewire/**/*.php',
+        './app/View/**/*.php',
+        './resources/views/**/*.blade.php',
+        './storage/framework/views/*.php',
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './vendor/laravel/jetstream/**/*.blade.php',
-        './storage/framework/views/*.php',
-        './resources/views/**/*.blade.php',
         './vendor/wireui/wireui/resources/**/*.blade.php',
         './vendor/wireui/wireui/ts/**/*.ts',
         './vendor/wireui/wireui/src/View/**/*.php'

@@ -64,11 +64,11 @@
         <link rel="apple-touch-startup-image" href="{{ asset('icons/apple-splash-1136-640.jpg') }}" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
-        <link rel="stylesheet" href="{{ asset(mix('dist/app.css')) }}">
+        @vite(['resources/css/app.css'])
         <livewire:styles />
 
         <wireui:scripts />
-        <script src="{{ asset(mix('dist/app.js')) }}" defer></script>
+        @vite(['resources/js/app.js', 'resources/js/pwa.js'])
 
         <style>
             [x-cloak] { display: none !important; }
@@ -81,6 +81,5 @@
         {{ $slot }}
 
         <livewire:scripts />
-        <script src="{{ asset(mix('dist/pwa.js')) }}" defer></script>
     </body>
 </html>
