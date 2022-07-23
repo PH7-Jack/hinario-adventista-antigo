@@ -1,7 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-    mode: 'jit',
     presets: [
         require('./vendor/wireui/wireui/tailwind.config.js')
     ],
