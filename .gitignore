@@ -2,15 +2,12 @@
 /public/build
 /public/hot
 /public/storage
-/public/mix-manifest.json
-/public/dist
 /storage/*.key
 /vendor
 .env
 .env.backup
 .env.testing
 .phpunit.result.cache
-.php-cs-fixer.cache
 docker-compose.override.yml
 Homestead.json
 Homestead.yaml
