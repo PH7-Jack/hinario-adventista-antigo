@@ -62,7 +62,7 @@
             state: true,
 
             init() {
-                $watch('scroll', (scroll, oldScroll) => {
+                this.$watch('scroll', (scroll, oldScroll) => {
                     scroll > oldScroll
                         ? this.state = false
                         : this.state = true

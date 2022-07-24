@@ -5,7 +5,7 @@
             search:   @entangle('search').defer,
 
             init() {
-                $watch('keyboard', (keyboard) => {
+                this.$watch('keyboard', (keyboard) => {
                     this.search = null
 
                     if (keyboard) {
@@ -18,7 +18,7 @@
                     }
                 })
 
-                $watch('search', (search) => {
+                this.$watch('search', (search) => {
                     if (!this.keyboard) {
                         $wire.call('$refresh')
                     }
