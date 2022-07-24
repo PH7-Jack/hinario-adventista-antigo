@@ -17,7 +17,7 @@ class HymnSeeder extends Seeder
             /** @var Section $section */
             $section = Section::query()->firstOrCreate(['name' => data_get($data, 'section')]);
 
-            /** @var Category $category*/
+            /** @var Category $category */
             $category = $section->categories()->firstOrCreate(['name' => data_get($data, 'category')]);
 
             /** @var Hymn $hymn */
