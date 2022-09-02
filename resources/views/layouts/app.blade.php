@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-banner />
 
-    <div class="min-h-screen bg-gray-100">
+    <div class="min-h-screen bg-gray-100s">
         @livewire('navigation-menu')
 
         @if (isset($header))

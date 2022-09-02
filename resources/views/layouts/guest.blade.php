@@ -68,7 +68,8 @@
         <livewire:styles />
 
         <wireui:scripts />
-        @vite(['resources/js/app.js', 'resources/js/pwa.js'])
+        @vite(['resources/js/app.js'])
+        {{-- @vite(['resources/js/app.js', 'resources/js/pwa.js']) --}}
 
         <style>
             [x-cloak] { display: none !important; }

@@ -11,6 +11,7 @@ export default defineConfig({
                 'resources/js/app.js',
                 'resources/js/pwa.js',
             ],
+            refresh: true,
         }),
     ],
     server: {

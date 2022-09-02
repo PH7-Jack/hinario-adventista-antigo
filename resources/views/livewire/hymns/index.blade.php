@@ -55,7 +55,7 @@
         <div class="flex flex-col justify-center items-center mx-auto mt-20 mb-12">
             <x-svg.iasd-hymn class="w-32 h-32 text-gray-600" />
 
-            <p class="mt-3 font-mono text-gray-700">
+            <p class="mt-3 tracking-wider font-mono text-gray-700">
                 Hinário Adventista
             </p>
         </div>

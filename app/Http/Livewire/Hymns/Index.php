@@ -44,10 +44,13 @@ class Index extends Component
             ->search($this->search)
             ->orderByRaw(<<<SQL
                 case
-                    when number like "%{$this->search}%" then 1
-                    when title like "%{$this->search}%" then 2
+                    when number like :number then 1
+                    when title like :title then 2
                 end DESC, number ASC, title ASC
-            SQL)
+            SQL, [
+                'number' => "%{$this->search}%",
+                'title'  => "%{$this->search}%",
+            ])
             ->groupBy('hymns.id')
             ->limit(10)
             ->get();
